@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SunopsisExport>
 <Admin RepositoryVersion="05.02.02.11" IsLegacyIdCompatible="false" />
-<Encryption algorithm="AES" keyLength="128" exportKeyHash="" keyVect="rNr6bua5wSvw9XyOxiEQ9w==" exportKeySalt="6ac0a2b5-2fb9-43eb-84a2-63020d8145ce" containsCipherText="false"/>
+<Encryption algorithm="AES" keyLength="128" exportKeyHash="" keyVect="XRLfIprzcpiM0gp59hNHiA==" exportKeySalt="8623fc81-1a6c-4106-89dc-dec033c7fadd" containsCipherText="false"/>
 <Object class="com.sunopsis.dwg.dbobj.SnpMapping">
 		<Field name="BusinessName" type="java.lang.String">null</Field>
 	<Field name="Descript" type="java.lang.String">null</Field>
@@ -10,7 +10,7 @@
 	<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2025-12-05 05:18:21.0]]></Field>
 	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
 	<Field name="GlobalId" type="java.lang.String"><![CDATA[b8546d68-5aa2-4a33-a2d8-c7edd7b19b7e]]></Field>
-	<Field name="IndChange" type="java.lang.String"><![CDATA[U]]></Field>
+	<Field name="IndChange" type="java.lang.String">null</Field>
 	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[9]]></Field>
 	<Field name="IsReusable" type="java.lang.String"><![CDATA[N]]></Field>
 	<Field name="IContextMapRef" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
@@ -2483,18 +2483,6 @@
 	<Field name="RefExprQualName" type="java.lang.String">null</Field>
 </Object>
 <Object class="com.sunopsis.dwg.dbobj.SnpPhyExpr">
-		<Field name="GlobalId" type="java.lang.String"><![CDATA[0fc07a77-4085-4743-9cf8-57fa3b336fa6]]></Field>
-	<Field name="HintSyncState" type="java.lang.String">null</Field>
-	<Field name="IFromPhyNode" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
-	<Field name="IMapExpr" type="com.sunopsis.sql.DbInt"><![CDATA[35631]]></Field>
-	<Field name="IOwnerPhyNode" type="com.sunopsis.sql.DbInt"><![CDATA[8714]]></Field>
-	<Field name="IPhyExpr" type="com.sunopsis.sql.DbInt"><![CDATA[28215]]></Field>
-	<Field name="IRmExprRef" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
-	<Field name="IToPhyNode" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
-	<Field name="PushedByHint" type="java.lang.String"><![CDATA[0]]></Field>
-	<Field name="RefExprQualName" type="java.lang.String">null</Field>
-</Object>
-<Object class="com.sunopsis.dwg.dbobj.SnpPhyExpr">
 		<Field name="GlobalId" type="java.lang.String"><![CDATA[821db38f-3085-498c-8d93-f3e5f67d1472]]></Field>
 	<Field name="HintSyncState" type="java.lang.String">null</Field>
 	<Field name="IFromPhyNode" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
@@ -2525,6 +2513,18 @@
 	<Field name="IMapExpr" type="com.sunopsis.sql.DbInt"><![CDATA[35591]]></Field>
 	<Field name="IOwnerPhyNode" type="com.sunopsis.sql.DbInt"><![CDATA[8714]]></Field>
 	<Field name="IPhyExpr" type="com.sunopsis.sql.DbInt"><![CDATA[28175]]></Field>
+	<Field name="IRmExprRef" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="IToPhyNode" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="PushedByHint" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="RefExprQualName" type="java.lang.String">null</Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpPhyExpr">
+		<Field name="GlobalId" type="java.lang.String"><![CDATA[0fc07a77-4085-4743-9cf8-57fa3b336fa6]]></Field>
+	<Field name="HintSyncState" type="java.lang.String">null</Field>
+	<Field name="IFromPhyNode" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="IMapExpr" type="com.sunopsis.sql.DbInt"><![CDATA[35631]]></Field>
+	<Field name="IOwnerPhyNode" type="com.sunopsis.sql.DbInt"><![CDATA[8714]]></Field>
+	<Field name="IPhyExpr" type="com.sunopsis.sql.DbInt"><![CDATA[28215]]></Field>
 	<Field name="IRmExprRef" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
 	<Field name="IToPhyNode" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
 	<Field name="PushedByHint" type="java.lang.String"><![CDATA[0]]></Field>
@@ -8624,140 +8624,6 @@
 	<Field name="ExtDtQualName" type="java.lang.String">null</Field>
 	<Field name="FirstDate" type="java.sql.Timestamp">null</Field>
 	<Field name="FirstUser" type="java.lang.String">null</Field>
-	<Field name="GlobalId" type="java.lang.String"><![CDATA[1437d7e8-9a9f-4ce5-a75f-867953606701]]></Field>
-	<Field name="GrpFunc" type="java.lang.String"><![CDATA[AUTO]]></Field>
-	<Field name="IndChange" type="java.lang.String">null</Field>
-	<Field name="IntDtQualName" type="java.lang.String">null</Field>
-	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
-	<Field name="IsDerivedName" type="java.lang.String"><![CDATA[0]]></Field>
-	<Field name="IsRequired" type="java.lang.String"><![CDATA[1]]></Field>
-	<Field name="IDataMapRef" type="com.sunopsis.sql.DbInt"><![CDATA[12823]]></Field>
-	<Field name="IMapAttr" type="com.sunopsis.sql.DbInt"><![CDATA[36733]]></Field>
-	<Field name="IMapRef" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
-	<Field name="IOwnerMapCp" type="com.sunopsis.sql.DbInt"><![CDATA[19454]]></Field>
-	<Field name="IParMapAttr" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
-	<Field name="LastDate" type="java.sql.Timestamp">null</Field>
-	<Field name="LastUser" type="java.lang.String">null</Field>
-	<Field name="Length" type="java.lang.String">null</Field>
-	<Field name="Name" type="java.lang.String"><![CDATA[ORD_LINE_CNL_ID]]></Field>
-	<Field name="Prec" type="java.lang.String">null</Field>
-	<Field name="PropValues" type="java.lang.String">null</Field>
-	<Field name="Scale" type="java.lang.String">null</Field>
-	<Field name="SortPos" type="com.sunopsis.sql.DbInt"><![CDATA[16]]></Field>
-	<Field name="SourceDt" type="java.lang.String">null</Field>
-</Object>
-<Object class="com.sunopsis.dwg.dbobj.SnpMapRef">
-		<Field name="AdapterIntfType" type="java.lang.String"><![CDATA[IColumn]]></Field>
-	<Field name="AdapterName" type="java.lang.String"><![CDATA[ODI]]></Field>
-	<Field name="BusinessName" type="java.lang.String">null</Field>
-	<Field name="Description" type="java.lang.String">null</Field>
-	<Field name="FcoGuid" type="java.lang.String">null</Field>
-	<Field name="FcoQualifiedName" type="java.lang.String"><![CDATA[IDataStore]]></Field>
-	<Field name="FcoQualifiedName2" type="java.lang.String">null</Field>
-	<Field name="FcoQualifiedName3" type="java.lang.String">null</Field>
-	<Field name="FirstDate" type="java.sql.Timestamp">null</Field>
-	<Field name="FirstUser" type="java.lang.String">null</Field>
-	<Field name="GlobalId" type="java.lang.String"><![CDATA[c8451b78-5762-4b60-8e27-0b4a0b788283]]></Field>
-	<Field name="IndChange" type="java.lang.String">null</Field>
-	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
-	<Field name="IFcoId" type="com.sunopsis.sql.DbInt"><![CDATA[150]]></Field>
-	<Field name="IMapRef" type="com.sunopsis.sql.DbInt"><![CDATA[12798]]></Field>
-	<Field name="IOwnerMapping" type="com.sunopsis.sql.DbInt"><![CDATA[410]]></Field>
-	<Field name="IRefId" type="com.sunopsis.sql.DbInt"><![CDATA[1761]]></Field>
-	<Field name="IScId" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
-	<Field name="LastDate" type="java.sql.Timestamp">null</Field>
-	<Field name="LastUser" type="java.lang.String">null</Field>
-	<Field name="Name" type="java.lang.String">null</Field>
-	<Field name="QualifiedName" type="java.lang.String"><![CDATA[ORD_LINE_CNL_ID]]></Field>
-	<Field name="QualifiedName2" type="java.lang.String">null</Field>
-	<Field name="QualifiedName3" type="java.lang.String">null</Field>
-	<Field name="RefCount" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
-	<Field name="RefGuid" type="java.lang.String"><![CDATA[38032dd8-5a7d-4070-9bcc-e47ed4979ad8]]></Field>
-	<Field name="ScGuid" type="java.lang.String">null</Field>
-</Object>
-<Object class="com.sunopsis.dwg.dbobj.SnpMapAttr">
-		<Field name="Alias" type="java.lang.String">null</Field>
-	<Field name="AttrPos" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
-	<Field name="AttrType" type="java.lang.String"><![CDATA[P]]></Field>
-	<Field name="BusinessName" type="java.lang.String">null</Field>
-	<Field name="DataTypeName" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
-	<Field name="Descript" type="java.lang.String">null</Field>
-	<Field name="Description" type="java.lang.String">null</Field>
-	<Field name="ExtDtQualName" type="java.lang.String">null</Field>
-	<Field name="FirstDate" type="java.sql.Timestamp">null</Field>
-	<Field name="FirstUser" type="java.lang.String">null</Field>
-	<Field name="GlobalId" type="java.lang.String"><![CDATA[3430cc25-c3ca-4c05-b0f1-1c9b390eb6ce]]></Field>
-	<Field name="GrpFunc" type="java.lang.String"><![CDATA[AUTO]]></Field>
-	<Field name="IndChange" type="java.lang.String">null</Field>
-	<Field name="IntDtQualName" type="java.lang.String">null</Field>
-	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
-	<Field name="IsDerivedName" type="java.lang.String"><![CDATA[1]]></Field>
-	<Field name="IsRequired" type="java.lang.String"><![CDATA[0]]></Field>
-	<Field name="IDataMapRef" type="com.sunopsis.sql.DbInt"><![CDATA[12787]]></Field>
-	<Field name="IMapAttr" type="com.sunopsis.sql.DbInt"><![CDATA[36383]]></Field>
-	<Field name="IMapRef" type="com.sunopsis.sql.DbInt"><![CDATA[12798]]></Field>
-	<Field name="IOwnerMapCp" type="com.sunopsis.sql.DbInt"><![CDATA[19348]]></Field>
-	<Field name="IParMapAttr" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
-	<Field name="LastDate" type="java.sql.Timestamp">null</Field>
-	<Field name="LastUser" type="java.lang.String">null</Field>
-	<Field name="Length" type="java.lang.String"><![CDATA[19]]></Field>
-	<Field name="Name" type="java.lang.String"><![CDATA[ORD_LINE_CNL_ID]]></Field>
-	<Field name="Prec" type="java.lang.String">null</Field>
-	<Field name="PropValues" type="java.lang.String">null</Field>
-	<Field name="Scale" type="java.lang.String"><![CDATA[0]]></Field>
-	<Field name="SortPos" type="com.sunopsis.sql.DbInt"><![CDATA[17]]></Field>
-	<Field name="SourceDt" type="java.lang.String">null</Field>
-</Object>
-<Object class="com.sunopsis.dwg.dbobj.SnpMapExpr">
-		<Field name="ExecOnHint" type="java.lang.String"><![CDATA[N]]></Field>
-	<Field name="FirstDate" type="java.sql.Timestamp">null</Field>
-	<Field name="FirstUser" type="java.lang.String">null</Field>
-	<Field name="GlobalId" type="java.lang.String"><![CDATA[eb3ecb5c-32b3-458c-981e-f0d06ec80fcf]]></Field>
-	<Field name="HasUnparsedIdent" type="java.lang.String">null</Field>
-	<Field name="IndChange" type="java.lang.String">null</Field>
-	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
-	<Field name="IsActive" type="java.lang.String">null</Field>
-	<Field name="IsParsed" type="java.lang.String"><![CDATA[1]]></Field>
-	<Field name="IDisTechRef" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
-	<Field name="IExOnLsRef" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
-	<Field name="IMapCp" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
-	<Field name="IMapExpr" type="com.sunopsis.sql.DbInt"><![CDATA[35570]]></Field>
-	<Field name="IOwnerMapAttr" type="com.sunopsis.sql.DbInt"><![CDATA[36383]]></Field>
-	<Field name="IOwnerMapProp" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
-	<Field name="LastDate" type="java.sql.Timestamp">null</Field>
-	<Field name="LastUser" type="java.lang.String">null</Field>
-	<Field name="ParsedText" type="java.lang.String">null</Field>
-	<Field name="ParsedTxt" type="java.lang.String"><![CDATA[@{R0}]]></Field>
-	<Field name="PropValues" type="java.lang.String">null</Field>
-	<Field name="Text" type="java.lang.String">null</Field>
-	<Field name="TextHash" type="com.sunopsis.sql.DbInt"><![CDATA[1484098829]]></Field>
-	<Field name="TextOnly" type="java.lang.String"><![CDATA[0]]></Field>
-	<Field name="Txt" type="java.lang.String"><![CDATA[EXPR.ORD_LINE_CNL_ID]]></Field>
-	<Field name="ValidationCode" type="java.lang.String">null</Field>
-</Object>
-<Object class="com.sunopsis.dwg.dbobj.SnpMapExprRef">
-		<Field name="GlobalId" type="java.lang.String"><![CDATA[118071dd-4420-498e-8b4d-13fbc8394833]]></Field>
-	<Field name="IsValid" type="java.lang.String"><![CDATA[0]]></Field>
-	<Field name="IMapExprRef" type="com.sunopsis.sql.DbInt"><![CDATA[30868]]></Field>
-	<Field name="IOwnerMapExpr" type="com.sunopsis.sql.DbInt"><![CDATA[35570]]></Field>
-	<Field name="IRefMapAttr" type="com.sunopsis.sql.DbInt"><![CDATA[36733]]></Field>
-	<Field name="IRefMapComp" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
-	<Field name="IRefMapRef" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
-	<Field name="IScopingMapCp" type="com.sunopsis.sql.DbInt"><![CDATA[19347]]></Field>
-	<Field name="RefKey" type="java.lang.String"><![CDATA[R0]]></Field>
-	<Field name="RefText" type="java.lang.String"><![CDATA[EXPR.ORD_LINE_CNL_ID]]></Field>
-</Object>
-<Object class="com.sunopsis.dwg.dbobj.SnpMapAttr">
-		<Field name="Alias" type="java.lang.String">null</Field>
-	<Field name="AttrPos" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
-	<Field name="AttrType" type="java.lang.String"><![CDATA[P]]></Field>
-	<Field name="BusinessName" type="java.lang.String">null</Field>
-	<Field name="DataTypeName" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
-	<Field name="Descript" type="java.lang.String">null</Field>
-	<Field name="Description" type="java.lang.String">null</Field>
-	<Field name="ExtDtQualName" type="java.lang.String">null</Field>
-	<Field name="FirstDate" type="java.sql.Timestamp">null</Field>
-	<Field name="FirstUser" type="java.lang.String">null</Field>
 	<Field name="GlobalId" type="java.lang.String"><![CDATA[3e85d8c5-bedf-450f-aa80-e622217987cf]]></Field>
 	<Field name="GrpFunc" type="java.lang.String"><![CDATA[AUTO]]></Field>
 	<Field name="IndChange" type="java.lang.String">null</Field>
@@ -9148,6 +9014,140 @@
 	<Field name="IScopingMapCp" type="com.sunopsis.sql.DbInt"><![CDATA[19347]]></Field>
 	<Field name="RefKey" type="java.lang.String"><![CDATA[R0]]></Field>
 	<Field name="RefText" type="java.lang.String"><![CDATA[EXPR.ORD_LINE_FCLT_OFC_ID]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpMapAttr">
+		<Field name="Alias" type="java.lang.String">null</Field>
+	<Field name="AttrPos" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="AttrType" type="java.lang.String"><![CDATA[P]]></Field>
+	<Field name="BusinessName" type="java.lang.String">null</Field>
+	<Field name="DataTypeName" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="Descript" type="java.lang.String">null</Field>
+	<Field name="Description" type="java.lang.String">null</Field>
+	<Field name="ExtDtQualName" type="java.lang.String">null</Field>
+	<Field name="FirstDate" type="java.sql.Timestamp">null</Field>
+	<Field name="FirstUser" type="java.lang.String">null</Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[1437d7e8-9a9f-4ce5-a75f-867953606701]]></Field>
+	<Field name="GrpFunc" type="java.lang.String"><![CDATA[AUTO]]></Field>
+	<Field name="IndChange" type="java.lang.String">null</Field>
+	<Field name="IntDtQualName" type="java.lang.String">null</Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="IsDerivedName" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IsRequired" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="IDataMapRef" type="com.sunopsis.sql.DbInt"><![CDATA[12823]]></Field>
+	<Field name="IMapAttr" type="com.sunopsis.sql.DbInt"><![CDATA[36733]]></Field>
+	<Field name="IMapRef" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="IOwnerMapCp" type="com.sunopsis.sql.DbInt"><![CDATA[19454]]></Field>
+	<Field name="IParMapAttr" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp">null</Field>
+	<Field name="LastUser" type="java.lang.String">null</Field>
+	<Field name="Length" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[ORD_LINE_CNL_ID]]></Field>
+	<Field name="Prec" type="java.lang.String">null</Field>
+	<Field name="PropValues" type="java.lang.String">null</Field>
+	<Field name="Scale" type="java.lang.String">null</Field>
+	<Field name="SortPos" type="com.sunopsis.sql.DbInt"><![CDATA[16]]></Field>
+	<Field name="SourceDt" type="java.lang.String">null</Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpMapRef">
+		<Field name="AdapterIntfType" type="java.lang.String"><![CDATA[IColumn]]></Field>
+	<Field name="AdapterName" type="java.lang.String"><![CDATA[ODI]]></Field>
+	<Field name="BusinessName" type="java.lang.String">null</Field>
+	<Field name="Description" type="java.lang.String">null</Field>
+	<Field name="FcoGuid" type="java.lang.String">null</Field>
+	<Field name="FcoQualifiedName" type="java.lang.String"><![CDATA[IDataStore]]></Field>
+	<Field name="FcoQualifiedName2" type="java.lang.String">null</Field>
+	<Field name="FcoQualifiedName3" type="java.lang.String">null</Field>
+	<Field name="FirstDate" type="java.sql.Timestamp">null</Field>
+	<Field name="FirstUser" type="java.lang.String">null</Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[c8451b78-5762-4b60-8e27-0b4a0b788283]]></Field>
+	<Field name="IndChange" type="java.lang.String">null</Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="IFcoId" type="com.sunopsis.sql.DbInt"><![CDATA[150]]></Field>
+	<Field name="IMapRef" type="com.sunopsis.sql.DbInt"><![CDATA[12798]]></Field>
+	<Field name="IOwnerMapping" type="com.sunopsis.sql.DbInt"><![CDATA[410]]></Field>
+	<Field name="IRefId" type="com.sunopsis.sql.DbInt"><![CDATA[1761]]></Field>
+	<Field name="IScId" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp">null</Field>
+	<Field name="LastUser" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String">null</Field>
+	<Field name="QualifiedName" type="java.lang.String"><![CDATA[ORD_LINE_CNL_ID]]></Field>
+	<Field name="QualifiedName2" type="java.lang.String">null</Field>
+	<Field name="QualifiedName3" type="java.lang.String">null</Field>
+	<Field name="RefCount" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="RefGuid" type="java.lang.String"><![CDATA[38032dd8-5a7d-4070-9bcc-e47ed4979ad8]]></Field>
+	<Field name="ScGuid" type="java.lang.String">null</Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpMapAttr">
+		<Field name="Alias" type="java.lang.String">null</Field>
+	<Field name="AttrPos" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="AttrType" type="java.lang.String"><![CDATA[P]]></Field>
+	<Field name="BusinessName" type="java.lang.String">null</Field>
+	<Field name="DataTypeName" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="Descript" type="java.lang.String">null</Field>
+	<Field name="Description" type="java.lang.String">null</Field>
+	<Field name="ExtDtQualName" type="java.lang.String">null</Field>
+	<Field name="FirstDate" type="java.sql.Timestamp">null</Field>
+	<Field name="FirstUser" type="java.lang.String">null</Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[3430cc25-c3ca-4c05-b0f1-1c9b390eb6ce]]></Field>
+	<Field name="GrpFunc" type="java.lang.String"><![CDATA[AUTO]]></Field>
+	<Field name="IndChange" type="java.lang.String">null</Field>
+	<Field name="IntDtQualName" type="java.lang.String">null</Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="IsDerivedName" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="IsRequired" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IDataMapRef" type="com.sunopsis.sql.DbInt"><![CDATA[12787]]></Field>
+	<Field name="IMapAttr" type="com.sunopsis.sql.DbInt"><![CDATA[36383]]></Field>
+	<Field name="IMapRef" type="com.sunopsis.sql.DbInt"><![CDATA[12798]]></Field>
+	<Field name="IOwnerMapCp" type="com.sunopsis.sql.DbInt"><![CDATA[19348]]></Field>
+	<Field name="IParMapAttr" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp">null</Field>
+	<Field name="LastUser" type="java.lang.String">null</Field>
+	<Field name="Length" type="java.lang.String"><![CDATA[19]]></Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[ORD_LINE_CNL_ID]]></Field>
+	<Field name="Prec" type="java.lang.String">null</Field>
+	<Field name="PropValues" type="java.lang.String">null</Field>
+	<Field name="Scale" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="SortPos" type="com.sunopsis.sql.DbInt"><![CDATA[17]]></Field>
+	<Field name="SourceDt" type="java.lang.String">null</Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpMapExpr">
+		<Field name="ExecOnHint" type="java.lang.String"><![CDATA[N]]></Field>
+	<Field name="FirstDate" type="java.sql.Timestamp">null</Field>
+	<Field name="FirstUser" type="java.lang.String">null</Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[eb3ecb5c-32b3-458c-981e-f0d06ec80fcf]]></Field>
+	<Field name="HasUnparsedIdent" type="java.lang.String">null</Field>
+	<Field name="IndChange" type="java.lang.String">null</Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="IsActive" type="java.lang.String">null</Field>
+	<Field name="IsParsed" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="IDisTechRef" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="IExOnLsRef" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="IMapCp" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="IMapExpr" type="com.sunopsis.sql.DbInt"><![CDATA[35570]]></Field>
+	<Field name="IOwnerMapAttr" type="com.sunopsis.sql.DbInt"><![CDATA[36383]]></Field>
+	<Field name="IOwnerMapProp" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp">null</Field>
+	<Field name="LastUser" type="java.lang.String">null</Field>
+	<Field name="ParsedText" type="java.lang.String">null</Field>
+	<Field name="ParsedTxt" type="java.lang.String"><![CDATA[@{R0}]]></Field>
+	<Field name="PropValues" type="java.lang.String">null</Field>
+	<Field name="Text" type="java.lang.String">null</Field>
+	<Field name="TextHash" type="com.sunopsis.sql.DbInt"><![CDATA[1484098829]]></Field>
+	<Field name="TextOnly" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[EXPR.ORD_LINE_CNL_ID]]></Field>
+	<Field name="ValidationCode" type="java.lang.String">null</Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpMapExprRef">
+		<Field name="GlobalId" type="java.lang.String"><![CDATA[118071dd-4420-498e-8b4d-13fbc8394833]]></Field>
+	<Field name="IsValid" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IMapExprRef" type="com.sunopsis.sql.DbInt"><![CDATA[30868]]></Field>
+	<Field name="IOwnerMapExpr" type="com.sunopsis.sql.DbInt"><![CDATA[35570]]></Field>
+	<Field name="IRefMapAttr" type="com.sunopsis.sql.DbInt"><![CDATA[36733]]></Field>
+	<Field name="IRefMapComp" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="IRefMapRef" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="IScopingMapCp" type="com.sunopsis.sql.DbInt"><![CDATA[19347]]></Field>
+	<Field name="RefKey" type="java.lang.String"><![CDATA[R0]]></Field>
+	<Field name="RefText" type="java.lang.String"><![CDATA[EXPR.ORD_LINE_CNL_ID]]></Field>
 </Object>
 <Object class="com.sunopsis.dwg.dbobj.SnpMapAttr">
 		<Field name="Alias" type="java.lang.String">null</Field>
@@ -28275,6 +28275,1018 @@
 	<Field name="RefKey" type="java.lang.String"><![CDATA[R2]]></Field>
 	<Field name="RefText" type="java.lang.String"><![CDATA[SUBS_CHURN_1_1_6.SUBS_CHURN_DATE]]></Field>
 </Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpScen">
+		<Field name="CecSessBehavior" type="java.lang.String"><![CDATA[E]]></Field>
+	<Field name="CecSessPollIntv" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ExtVersion" type="java.lang.String">null</Field>
+	<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2025-12-08 09:42:36.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[e79fe061-6cc7-4fea-a64e-c942c2a582ca]]></Field>
+	<Field name="IndChange" type="java.lang.String">null</Field>
+	<Field name="IndPromptParam" type="java.lang.String">null</Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[570]]></Field>
+	<Field name="IsMaterialized" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IDeploySpec" type="com.sunopsis.sql.DbInt"><![CDATA[328]]></Field>
+	<Field name="IMapping" type="com.sunopsis.sql.DbInt"><![CDATA[410]]></Field>
+	<Field name="IPackage" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="IPop" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="IScenFolder" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ITrt" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ITxtScen" type="com.sunopsis.sql.DbInt"><![CDATA[143]]></Field>
+	<Field name="IVar" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2025-12-23 08:55:37.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="MaxCecSess" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="RepGuid" type="java.lang.String">null</Field>
+	<Field name="RepVersion" type="java.lang.String">null</Field>
+	<Field name="RestartType" type="java.lang.String">null</Field>
+	<Field name="ScenName" type="java.lang.String"><![CDATA[SCEN_MAPPING_1_410]]></Field>
+	<Field name="ScenNo" type="com.sunopsis.sql.DbInt"><![CDATA[73]]></Field>
+	<Field name="ScenSnapshotNo" type="com.sunopsis.sql.DbInt"><![CDATA[143]]></Field>
+	<Field name="ScenVersion" type="java.lang.String"><![CDATA[001]]></Field>
+	<Field name="VLastDate" type="java.sql.Timestamp">null</Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpExpTxtHeader">
+		<Field name="GlobalId" type="java.lang.String"><![CDATA[03640711-be99-4e80-ab48-02be7451be88]]></Field>
+	<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[143]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[-SCEN_STATUS=VALID]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpVarScen">
+		<Field name="DefDate" type="java.sql.Timestamp">null</Field>
+	<Field name="DefN" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="DefV" type="java.lang.String">null</Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[e9e233d9-a478-4421-a11f-2fbac5d889d1]]></Field>
+	<Field name="IndStore" type="java.lang.String"><![CDATA[H]]></Field>
+	<Field name="ITxtDefT" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ITxtVar" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ScenNo" type="com.sunopsis.sql.DbInt"><![CDATA[73]]></Field>
+	<Field name="VarDatatype" type="java.lang.String"><![CDATA[A]]></Field>
+	<Field name="VarLongValue" type="java.lang.String">null</Field>
+	<Field name="VarName" type="java.lang.String"><![CDATA[GLOBAL.G_VAR_1]]></Field>
+	<Field name="VarParam" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="VarParamOrder" type="com.sunopsis.sql.DbInt"><![CDATA[2]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpVarScen">
+		<Field name="DefDate" type="java.sql.Timestamp">null</Field>
+	<Field name="DefN" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="DefV" type="java.lang.String">null</Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[1634ae3f-b05d-4474-af79-948b3731929d]]></Field>
+	<Field name="IndStore" type="java.lang.String"><![CDATA[H]]></Field>
+	<Field name="ITxtDefT" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ITxtVar" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ScenNo" type="com.sunopsis.sql.DbInt"><![CDATA[73]]></Field>
+	<Field name="VarDatatype" type="java.lang.String"><![CDATA[A]]></Field>
+	<Field name="VarLongValue" type="java.lang.String">null</Field>
+	<Field name="VarName" type="java.lang.String"><![CDATA[TEST_PROJECT.VAR_1]]></Field>
+	<Field name="VarParam" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="VarParamOrder" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpScenStep">
+		<Field name="BrpId" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="CleanupOnError" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="ContextCode" type="java.lang.String">null</Field>
+	<Field name="FContextCode" type="java.lang.String">null</Field>
+	<Field name="GenInfo" type="java.lang.String">null</Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[ce09f559-6976-4795-a699-260c82665ab2]]></Field>
+	<Field name="IndLogMethod" type="java.lang.String"><![CDATA[Y]]></Field>
+	<Field name="ITxtVarValue" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="JagentLschemaName" type="java.lang.String">null</Field>
+	<Field name="KoExit" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="KoExitCode" type="java.lang.String">null</Field>
+	<Field name="KoNextStep" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="KoRetry" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="KoRetryInterv" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="LschemaName" type="java.lang.String"><![CDATA[LOG_TEST_CONN1_DP_CORE_SEM]]></Field>
+	<Field name="MaxErr" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="MaxErrPrct" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="ModCode" type="java.lang.String"><![CDATA[MD_TEST_CONN1_DP_CORE_SEM]]></Field>
+	<Field name="Nno" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="OkExit" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="OkExitCode" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="OkNextStep" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ResName" type="java.lang.String"><![CDATA[LNOC]]></Field>
+	<Field name="ScenNo" type="com.sunopsis.sql.DbInt"><![CDATA[73]]></Field>
+	<Field name="StepName" type="java.lang.String"><![CDATA[Physical_STEP]]></Field>
+	<Field name="StepType" type="java.lang.String"><![CDATA[M]]></Field>
+	<Field name="TableName" type="java.lang.String"><![CDATA[LNOC]]></Field>
+	<Field name="VarIncr" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="VarLongValue" type="java.lang.String">null</Field>
+	<Field name="VarName" type="java.lang.String">null</Field>
+	<Field name="VarOp" type="java.lang.String">null</Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpScenTask">
+		<Field name="BrpId" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ColConnectId" type="java.lang.String">null</Field>
+	<Field name="ColContextCode" type="java.lang.String">null</Field>
+	<Field name="ColEncKey" type="java.lang.String">null</Field>
+	<Field name="ColEncKeyVect" type="java.lang.String">null</Field>
+	<Field name="ColIndCommit" type="java.lang.String">null</Field>
+	<Field name="ColIndEnc" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="ColIsolLevel" type="java.lang.String">null</Field>
+	<Field name="ColLschemaName" type="java.lang.String">null</Field>
+	<Field name="ColTechIntName" type="java.lang.String">null</Field>
+	<Field name="ColTxt" type="java.lang.String">null</Field>
+	<Field name="DefConnectId" type="java.lang.String">null</Field>
+	<Field name="DefContextCode" type="java.lang.String">null</Field>
+	<Field name="DefEncKey" type="java.lang.String">null</Field>
+	<Field name="DefEncKeyVect" type="java.lang.String">null</Field>
+	<Field name="DefIndCommit" type="java.lang.String">null</Field>
+	<Field name="DefIndEnc" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="DefIsolLevel" type="java.lang.String">null</Field>
+	<Field name="DefLschemaName" type="java.lang.String">null</Field>
+	<Field name="DefTechIntName" type="java.lang.String">null</Field>
+	<Field name="DefTxt" type="java.lang.String">null</Field>
+	<Field name="ExeChannel" type="java.lang.String">null</Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[a4754aa9-56ee-48fc-bdbc-4ef1836a2f1a]]></Field>
+	<Field name="IndErr" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IndLogFinalCmd" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IndLogMethod" type="java.lang.String">null</Field>
+	<Field name="IndLogNb" type="java.lang.String">null</Field>
+	<Field name="LogLevDet" type="java.lang.String"><![CDATA[5]]></Field>
+	<Field name="MapTaskType" type="java.lang.String"><![CDATA[EB]]></Field>
+	<Field name="Nno" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="OrdTrt" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="ParScenTaskNo" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ScenNo" type="com.sunopsis.sql.DbInt"><![CDATA[73]]></Field>
+	<Field name="ScenTaskNo" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="TaskName1" type="java.lang.String"><![CDATA[SERIAL]]></Field>
+	<Field name="TaskName2" type="java.lang.String"><![CDATA[MAP_MAIN]]></Field>
+	<Field name="TaskName3" type="java.lang.String">null</Field>
+	<Field name="TaskType" type="java.lang.String"><![CDATA[L]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpScenTask">
+		<Field name="BrpId" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ColConnectId" type="java.lang.String">null</Field>
+	<Field name="ColContextCode" type="java.lang.String">null</Field>
+	<Field name="ColEncKey" type="java.lang.String">null</Field>
+	<Field name="ColEncKeyVect" type="java.lang.String">null</Field>
+	<Field name="ColIndCommit" type="java.lang.String">null</Field>
+	<Field name="ColIndEnc" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="ColIsolLevel" type="java.lang.String">null</Field>
+	<Field name="ColLschemaName" type="java.lang.String">null</Field>
+	<Field name="ColTechIntName" type="java.lang.String">null</Field>
+	<Field name="ColTxt" type="java.lang.String">null</Field>
+	<Field name="DefConnectId" type="java.lang.String">null</Field>
+	<Field name="DefContextCode" type="java.lang.String">null</Field>
+	<Field name="DefEncKey" type="java.lang.String">null</Field>
+	<Field name="DefEncKeyVect" type="java.lang.String">null</Field>
+	<Field name="DefIndCommit" type="java.lang.String">null</Field>
+	<Field name="DefIndEnc" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="DefIsolLevel" type="java.lang.String">null</Field>
+	<Field name="DefLschemaName" type="java.lang.String">null</Field>
+	<Field name="DefTechIntName" type="java.lang.String">null</Field>
+	<Field name="DefTxt" type="java.lang.String">null</Field>
+	<Field name="ExeChannel" type="java.lang.String">null</Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[19740e2a-c8df-4a50-a472-4b49289c32c8]]></Field>
+	<Field name="IndErr" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IndLogFinalCmd" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IndLogMethod" type="java.lang.String">null</Field>
+	<Field name="IndLogNb" type="java.lang.String">null</Field>
+	<Field name="LogLevDet" type="java.lang.String"><![CDATA[5]]></Field>
+	<Field name="MapTaskType" type="java.lang.String"><![CDATA[EB]]></Field>
+	<Field name="Nno" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="OrdTrt" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="ParScenTaskNo" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="ScenNo" type="com.sunopsis.sql.DbInt"><![CDATA[73]]></Field>
+	<Field name="ScenTaskNo" type="com.sunopsis.sql.DbInt"><![CDATA[20]]></Field>
+	<Field name="TaskName1" type="java.lang.String"><![CDATA[SERIAL]]></Field>
+	<Field name="TaskName2" type="java.lang.String"><![CDATA[EU]]></Field>
+	<Field name="TaskName3" type="java.lang.String"><![CDATA[LOG_TEST_CONN1_DP_CORE_SEM_UNIT]]></Field>
+	<Field name="TaskType" type="java.lang.String"><![CDATA[L]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpScenTask">
+		<Field name="BrpId" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ColConnectId" type="java.lang.String">null</Field>
+	<Field name="ColContextCode" type="java.lang.String">null</Field>
+	<Field name="ColEncKey" type="java.lang.String">null</Field>
+	<Field name="ColEncKeyVect" type="java.lang.String">null</Field>
+	<Field name="ColIndCommit" type="java.lang.String">null</Field>
+	<Field name="ColIndEnc" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="ColIsolLevel" type="java.lang.String"><![CDATA[D]]></Field>
+	<Field name="ColLschemaName" type="java.lang.String"><![CDATA[LOG_TEST_CONN1_DP_CORE_SEM]]></Field>
+	<Field name="ColTechIntName" type="java.lang.String">null</Field>
+	<Field name="ColTxt" type="java.lang.String">null</Field>
+	<Field name="DefConnectId" type="java.lang.String">null</Field>
+	<Field name="DefContextCode" type="java.lang.String">null</Field>
+	<Field name="DefEncKey" type="java.lang.String">null</Field>
+	<Field name="DefEncKeyVect" type="java.lang.String">null</Field>
+	<Field name="DefIndCommit" type="java.lang.String">null</Field>
+	<Field name="DefIndEnc" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="DefIsolLevel" type="java.lang.String"><![CDATA[D]]></Field>
+	<Field name="DefLschemaName" type="java.lang.String"><![CDATA[LOG_TEST_CONN1_DP_CORE_SEM]]></Field>
+	<Field name="DefTechIntName" type="java.lang.String"><![CDATA[ORACLE]]></Field>
+	<Field name="DefTxt" type="java.lang.String"><![CDATA[
+INSERT 
+  /*+  APPEND PARALLEL  */ 
+  INTO <?= odiRef.getObjectName("L", "LNOC", "LOG_TEST_CONN1_DP_CORE_SEM", "D") ?>
+  (
+    CLS_TYPE ,
+    ORD_LINE_END_DATE ,
+    OPEN_DATE ,
+    END_DATE ,
+    ORD_LINE_STRT_DATE ,
+    ORD_LINE_SUBS_ID ,
+    SUBS_OFR_PROD_ID ,
+    ORD_LINE_PROD_ID ,
+    ORD_LINE_OFR_ID ,
+    OFR_GRP ,
+    SUBS_DSL_NO ,
+    SUBS_PROD_ID ,
+    SUBS_OFR_ID ,
+    ORD_LINE_INITIATE_USER_ID ,
+    ORD_LINE_CMPG_ID ,
+    ORD_LINE_FCLT_OFC_ID ,
+    ORD_LINE_CNL_ID ,
+    CNL_NAME ,
+    ORD_LINE_CUST_ID ,
+    ORD_ID ,
+    ORD_LINE_ID ,
+    SUBS_BILL_ACCT_ID ,
+    OFR_ISLIMITED ,
+    ORD_LINE_PRTNR_ID ,
+    ORD_LINE_WRK_ORG_ID ,
+    ORD_LINE_INTER_INTL_RSN_CD ,
+    EVNT_RSN_NAME 
+  ) 
+SELECT 
+  INLINE_VIEW_3.CLS_TYPE ,
+  INLINE_VIEW_3.ORD_LINE_END_DATE_5 ,
+  (CASE
+                      WHEN SALE_TXN_KEY_2_2.SALE_TXN_CD IS NOT NULL
+                      THEN
+                         LNOC_MERGE_HISTORY_2_1.HAT_COZULME_TARIHI
+                      ELSE
+                         INLINE_VIEW_3.OPEN_DATE_STG
+                   END) ,
+  INLINE_VIEW_3.END_DATE ,
+  INLINE_VIEW_3.ORD_LINE_STRT_DATE_5 ,
+  INLINE_VIEW_3.ORD_LINE_SUBS_ID_4 ,
+  INLINE_VIEW_3.SUBS_OFR_PROD_ID_5 ,
+  INLINE_VIEW_3.ORD_LINE_PROD_ID_4 ,
+  INLINE_VIEW_3.ORD_LINE_OFR_ID_4 ,
+  INLINE_VIEW_3.OFR_GRP_6 ,
+  INLINE_VIEW_3.SUBS_DSL_NO_3 ,
+  INLINE_VIEW_3.SUBS_PROD_ID_3 ,
+  INLINE_VIEW_3.SUBS_OFR_ID_3 ,
+  INLINE_VIEW_3.ORD_LINE_INITIATE_USER_ID_4 ,
+  INLINE_VIEW_3.ORD_LINE_CMPG_ID_4 ,
+  INLINE_VIEW_3.ORD_LINE_FCLT_OFC_ID_4 ,
+  INLINE_VIEW_3.ORD_LINE_CNL_ID_4 ,
+  INLINE_VIEW_3.CNL_NAME_2 ,
+  INLINE_VIEW_3.ORD_LINE_CUST_ID_4 ,
+  INLINE_VIEW_3.ORD_ID_4 ,
+  INLINE_VIEW_3.ORD_LINE_ID_5 ,
+  INLINE_VIEW_3.SUBS_BILL_ACCT_ID_3 ,
+  INLINE_VIEW_3.OFR_ISLIMITED_3 ,
+  INLINE_VIEW_3.ORD_LINE_PRTNR_ID_4 ,
+  INLINE_VIEW_3.ORD_LINE_WRK_ORG_ID_4 ,
+  INLINE_VIEW_3.ORD_LINE_INTER_INTL_RSN_CD_4 ,
+  INLINE_VIEW_3.EVNT_RSN_NAME_2  
+FROM 
+  (
+SELECT 
+  INLINE_VIEW_2.OFR_ID AS OFR_ID ,
+  INLINE_VIEW_2.OFR_GRP AS OFR_GRP ,
+  INLINE_VIEW_2.OFR_ISDSL AS OFR_ISDSL ,
+  INLINE_VIEW_2.OFR_ISLIMITED AS OFR_ISLIMITED ,
+  INLINE_VIEW_2.OFR_ID_1 AS OFR_ID_1 ,
+  INLINE_VIEW_2.OFR_GRP_1 AS OFR_GRP_1 ,
+  INLINE_VIEW_2.OFR_ISDSL_1 AS OFR_ISDSL_1 ,
+  INLINE_VIEW_2.OFR_ISLIMITED_1 AS OFR_ISLIMITED_1 ,
+  INLINE_VIEW_2.ORD_LINE_PREV_PROD_ID AS ORD_LINE_PREV_PROD_ID ,
+  INLINE_VIEW_2.ORD_LINE_RPT_OFC_ID AS ORD_LINE_RPT_OFC_ID ,
+  INLINE_VIEW_2.ORD_LINE_STRT_DATE_ID AS ORD_LINE_STRT_DATE_ID ,
+  INLINE_VIEW_2.SUBS_OFR_PROD_ID AS SUBS_OFR_PROD_ID ,
+  INLINE_VIEW_2.ORD_ID AS ORD_ID ,
+  INLINE_VIEW_2.ORD_LINE_PREV_OFR_ID AS ORD_LINE_PREV_OFR_ID ,
+  INLINE_VIEW_2.ORD_LINE_TP_CD AS ORD_LINE_TP_CD ,
+  INLINE_VIEW_2.ORD_LINE_CMPG_ID AS ORD_LINE_CMPG_ID ,
+  INLINE_VIEW_2.ORD_LINE_ST_CD AS ORD_LINE_ST_CD ,
+  INLINE_VIEW_2.ORD_LINE_CNL_ID AS ORD_LINE_CNL_ID ,
+  INLINE_VIEW_2.ORD_LINE_INTER_CLS_CD AS ORD_LINE_INTER_CLS_CD ,
+  INLINE_VIEW_2.ORD_LINE_INITIATE_USER_ID AS ORD_LINE_INITIATE_USER_ID ,
+  INLINE_VIEW_2.ORD_LINE_OFR_ID AS ORD_LINE_OFR_ID ,
+  INLINE_VIEW_2.ORD_LINE_SUBS_ID AS ORD_LINE_SUBS_ID ,
+  INLINE_VIEW_2.ORD_LINE_END_DATE_ID AS ORD_LINE_END_DATE_ID ,
+  INLINE_VIEW_2.TRANS_SUBS_OFR_PROD_ID AS TRANS_SUBS_OFR_PROD_ID ,
+  INLINE_VIEW_2.ORD_LINE_ID AS ORD_LINE_ID ,
+  INLINE_VIEW_2.ORD_LINE_TRANS_INDC AS ORD_LINE_TRANS_INDC ,
+  INLINE_VIEW_2.ORD_LINE_FCLT_OFC_ID AS ORD_LINE_FCLT_OFC_ID ,
+  INLINE_VIEW_2.ORD_LINE_UPD_USER_ID AS ORD_LINE_UPD_USER_ID ,
+  INLINE_VIEW_2.ORD_LINE_PRTNR_ID AS ORD_LINE_PRTNR_ID ,
+  INLINE_VIEW_2.ORD_LINE_END_DATE AS ORD_LINE_END_DATE ,
+  INLINE_VIEW_2.ORD_LINE_CUST_ID AS ORD_LINE_CUST_ID ,
+  INLINE_VIEW_2.ORD_LINE_PREV_CUST_ID AS ORD_LINE_PREV_CUST_ID ,
+  INLINE_VIEW_2.ORD_LINE_CUR_CD AS ORD_LINE_CUR_CD ,
+  INLINE_VIEW_2.ORD_LINE_INTER_ID AS ORD_LINE_INTER_ID ,
+  INLINE_VIEW_2.ORD_LINE_PROD_ID AS ORD_LINE_PROD_ID ,
+  INLINE_VIEW_2.ORD_LINE_INTER_ORIG_CLS_CD AS ORD_LINE_INTER_ORIG_CLS_CD ,
+  INLINE_VIEW_2.ORD_LINE_INTER_EXT_RSN_CD AS ORD_LINE_INTER_EXT_RSN_CD ,
+  INLINE_VIEW_2.ORD_LINE_SALE_PRTNR_ID AS ORD_LINE_SALE_PRTNR_ID ,
+  INLINE_VIEW_2.DWH_LOAD AS DWH_LOAD ,
+  INLINE_VIEW_2.ORD_LINE_CMPG_TRANS_INDC AS ORD_LINE_CMPG_TRANS_INDC ,
+  INLINE_VIEW_2.ORD_LINE_SRVC_NO AS ORD_LINE_SRVC_NO ,
+  INLINE_VIEW_2.ORD_LINE_DSL_NO AS ORD_LINE_DSL_NO ,
+  INLINE_VIEW_2.ORD_LINE_WRK_ORG_ID AS ORD_LINE_WRK_ORG_ID ,
+  INLINE_VIEW_2.ORD_LINE_UOM_CD AS ORD_LINE_UOM_CD ,
+  INLINE_VIEW_2.ORD_LINE_STRT_DATE AS ORD_LINE_STRT_DATE ,
+  INLINE_VIEW_2.ORD_LINE_INTER_INTL_RSN_CD AS ORD_LINE_INTER_INTL_RSN_CD ,
+  INLINE_VIEW_2.ORD_LINE_DATEDIFF_HOUR AS ORD_LINE_DATEDIFF_HOUR ,
+  INLINE_VIEW_2.ORD_LINE_PROD_SALE_FLG AS ORD_LINE_PROD_SALE_FLG ,
+  INLINE_VIEW_2.ORD_LINE_PROD_CANCEL_FLG AS ORD_LINE_PROD_CANCEL_FLG ,
+  INLINE_VIEW_2.ORD_LINE_CMPG_SALE_FLG AS ORD_LINE_CMPG_SALE_FLG ,
+  INLINE_VIEW_2.ORD_LINE_NEW_CMPG_SALE_FLG AS ORD_LINE_NEW_CMPG_SALE_FLG ,
+  INLINE_VIEW_2.ORD_LINE_CURR_CMPG_SALE_FLG AS ORD_LINE_CURR_CMPG_SALE_FLG ,
+  INLINE_VIEW_2.ORD_LINE_PREV_CMPG_ID AS ORD_LINE_PREV_CMPG_ID ,
+  INLINE_VIEW_2.ORD_LINE_ACTV_DTTM AS ORD_LINE_ACTV_DTTM ,
+  INLINE_VIEW_2.ORD_LINE_MKTNG_CUST_TP AS ORD_LINE_MKTNG_CUST_TP ,
+  INLINE_VIEW_2.CONN_SUBS_OFR_PROD_ID AS CONN_SUBS_OFR_PROD_ID ,
+  INLINE_VIEW_2.CONN_SUBS_ID AS CONN_SUBS_ID ,
+  INLINE_VIEW_2.ORD_LINE_POSTN_ROLE_CD AS ORD_LINE_POSTN_ROLE_CD ,
+  INLINE_VIEW_2.ORD_LINE_POSTN_ID AS ORD_LINE_POSTN_ID ,
+  INLINE_VIEW_2.UPSELL_TP AS UPSELL_TP ,
+  INLINE_VIEW_2.PRNT_OFR_ID AS PRNT_OFR_ID ,
+  INLINE_VIEW_2.PREV_PRNT_OFR_ID AS PREV_PRNT_OFR_ID ,
+  INLINE_VIEW_2.SUBS_ID AS SUBS_ID ,
+  INLINE_VIEW_2.OFR_ID_2 AS OFR_ID_2 ,
+  INLINE_VIEW_2.OFR_GRP_2 AS OFR_GRP_2 ,
+  INLINE_VIEW_2.OFR_ISDSL_2 AS OFR_ISDSL_2 ,
+  INLINE_VIEW_2.SUBS_OFR_PROD_ID_1 AS SUBS_OFR_PROD_ID_1 ,
+  INLINE_VIEW_2.ORD_LINE_ID_1 AS ORD_LINE_ID_1 ,
+  INLINE_VIEW_2.ORD_LINE_END_DATE_1 AS ORD_LINE_END_DATE_1 ,
+  INLINE_VIEW_2.ORD_LINE_STRT_DATE_1 AS ORD_LINE_STRT_DATE_1 ,
+  INLINE_VIEW_2.ORD_LINE_PREV_PROD_ID_1 AS ORD_LINE_PREV_PROD_ID_1 ,
+  INLINE_VIEW_2.ORD_LINE_RPT_OFC_ID_1 AS ORD_LINE_RPT_OFC_ID_1 ,
+  INLINE_VIEW_2.ORD_LINE_STRT_DATE_ID_1 AS ORD_LINE_STRT_DATE_ID_1 ,
+  INLINE_VIEW_2.SUBS_OFR_PROD_ID_2 AS SUBS_OFR_PROD_ID_2 ,
+  INLINE_VIEW_2.ORD_ID_1 AS ORD_ID_1 ,
+  INLINE_VIEW_2.ORD_LINE_PREV_OFR_ID_1 AS ORD_LINE_PREV_OFR_ID_1 ,
+  INLINE_VIEW_2.ORD_LINE_TP_CD_1 AS ORD_LINE_TP_CD_1 ,
+  INLINE_VIEW_2.ORD_LINE_CMPG_ID_1 AS ORD_LINE_CMPG_ID_1 ,
+  INLINE_VIEW_2.ORD_LINE_ST_CD_1 AS ORD_LINE_ST_CD_1 ,
+  INLINE_VIEW_2.ORD_LINE_CNL_ID_1 AS ORD_LINE_CNL_ID_1 ,
+  INLINE_VIEW_2.ORD_LINE_INTER_CLS_CD_1 AS ORD_LINE_INTER_CLS_CD_1 ,
+  INLINE_VIEW_2.ORD_LINE_INITIATE_USER_ID_1 AS ORD_LINE_INITIATE_USER_ID_1 ,
+  INLINE_VIEW_2.ORD_LINE_OFR_ID_1 AS ORD_LINE_OFR_ID_1 ,
+  INLINE_VIEW_2.ORD_LINE_SUBS_ID_1 AS ORD_LINE_SUBS_ID_1 ,
+  INLINE_VIEW_2.ORD_LINE_END_DATE_ID_1 AS ORD_LINE_END_DATE_ID_1 ,
+  INLINE_VIEW_2.TRANS_SUBS_OFR_PROD_ID_1 AS TRANS_SUBS_OFR_PROD_ID_1 ,
+  INLINE_VIEW_2.ORD_LINE_ID_2 AS ORD_LINE_ID_2 ,
+  INLINE_VIEW_2.ORD_LINE_TRANS_INDC_1 AS ORD_LINE_TRANS_INDC_1 ,
+  INLINE_VIEW_2.ORD_LINE_FCLT_OFC_ID_1 AS ORD_LINE_FCLT_OFC_ID_1 ,
+  INLINE_VIEW_2.ORD_LINE_UPD_USER_ID_1 AS ORD_LINE_UPD_USER_ID_1 ,
+  INLINE_VIEW_2.ORD_LINE_PRTNR_ID_1 AS ORD_LINE_PRTNR_ID_1 ,
+  INLINE_VIEW_2.ORD_LINE_END_DATE_2 AS ORD_LINE_END_DATE_2 ,
+  INLINE_VIEW_2.ORD_LINE_CUST_ID_1 AS ORD_LINE_CUST_ID_1 ,
+  INLINE_VIEW_2.ORD_LINE_PREV_CUST_ID_1 AS ORD_LINE_PREV_CUST_ID_1 ,
+  INLINE_VIEW_2.ORD_LINE_CUR_CD_1 AS ORD_LINE_CUR_CD_1 ,
+  INLINE_VIEW_2.ORD_LINE_INTER_ID_1 AS ORD_LINE_INTER_ID_1 ,
+  INLINE_VIEW_2.ORD_LINE_PROD_ID_1 AS ORD_LINE_PROD_ID_1 ,
+  INLINE_VIEW_2.ORD_LINE_INTER_ORIG_CLS_CD_1 AS ORD_LINE_INTER_ORIG_CLS_CD_1 ,
+  INLINE_VIEW_2.ORD_LINE_INTER_EXT_RSN_CD_1 AS ORD_LINE_INTER_EXT_RSN_CD_1 ,
+  INLINE_VIEW_2.ORD_LINE_SALE_PRTNR_ID_1 AS ORD_LINE_SALE_PRTNR_ID_1 ,
+  INLINE_VIEW_2.DWH_LOAD_1 AS DWH_LOAD_1 ,
+  INLINE_VIEW_2.ORD_LINE_CMPG_TRANS_INDC_1 AS ORD_LINE_CMPG_TRANS_INDC_1 ,
+  INLINE_VIEW_2.ORD_LINE_SRVC_NO_1 AS ORD_LINE_SRVC_NO_1 ,
+  INLINE_VIEW_2.ORD_LINE_DSL_NO_1 AS ORD_LINE_DSL_NO_1 ,
+  INLINE_VIEW_2.ORD_LINE_WRK_ORG_ID_1 AS ORD_LINE_WRK_ORG_ID_1 ,
+  INLINE_VIEW_2.ORD_LINE_UOM_CD_1 AS ORD_LINE_UOM_CD_1 ,
+  INLINE_VIEW_2.ORD_LINE_STRT_DATE_2 AS ORD_LINE_STRT_DATE_2 ,
+  INLINE_VIEW_2.ORD_LINE_INTER_INTL_RSN_CD_1 AS ORD_LINE_INTER_INTL_RSN_CD_1 ,
+  INLINE_VIEW_2.ORD_LINE_DATEDIFF_HOUR_1 AS ORD_LINE_DATEDIFF_HOUR_1 ,
+  INLINE_VIEW_2.ORD_LINE_PROD_SALE_FLG_1 AS ORD_LINE_PROD_SALE_FLG_1 ,
+  INLINE_VIEW_2.ORD_LINE_PROD_CANCEL_FLG_1 AS ORD_LINE_PROD_CANCEL_FLG_1 ,
+  INLINE_VIEW_2.ORD_LINE_CMPG_SALE_FLG_1 AS ORD_LINE_CMPG_SALE_FLG_1 ,
+  INLINE_VIEW_2.ORD_LINE_NEW_CMPG_SALE_FLG_1 AS ORD_LINE_NEW_CMPG_SALE_FLG_1 ,
+  INLINE_VIEW_2.ORD_LINE_CURR_CMPG_SALE_FLG_1 AS ORD_LINE_CURR_CMPG_SALE_FLG_1 ,
+  INLINE_VIEW_2.ORD_LINE_PREV_CMPG_ID_1 AS ORD_LINE_PREV_CMPG_ID_1 ,
+  INLINE_VIEW_2.ORD_LINE_ACTV_DTTM_1 AS ORD_LINE_ACTV_DTTM_1 ,
+  INLINE_VIEW_2.ORD_LINE_MKTNG_CUST_TP_1 AS ORD_LINE_MKTNG_CUST_TP_1 ,
+  INLINE_VIEW_2.CONN_SUBS_OFR_PROD_ID_1 AS CONN_SUBS_OFR_PROD_ID_1 ,
+  INLINE_VIEW_2.CONN_SUBS_ID_1 AS CONN_SUBS_ID_1 ,
+  INLINE_VIEW_2.ORD_LINE_POSTN_ROLE_CD_1 AS ORD_LINE_POSTN_ROLE_CD_1 ,
+  INLINE_VIEW_2.ORD_LINE_POSTN_ID_1 AS ORD_LINE_POSTN_ID_1 ,
+  INLINE_VIEW_2.UPSELL_TP_1 AS UPSELL_TP_1 ,
+  INLINE_VIEW_2.PRNT_OFR_ID_1 AS PRNT_OFR_ID_1 ,
+  INLINE_VIEW_2.PREV_PRNT_OFR_ID_1 AS PREV_PRNT_OFR_ID_1 ,
+  INLINE_VIEW_2.SUBS_ID_1 AS SUBS_ID_1 ,
+  INLINE_VIEW_2.SUBS_OFR_ID AS SUBS_OFR_ID ,
+  INLINE_VIEW_2.SUBS_PROD_ID AS SUBS_PROD_ID ,
+  INLINE_VIEW_2.SUBS_DSL_NO AS SUBS_DSL_NO ,
+  INLINE_VIEW_2.SUBS_BILL_ACCT_ID AS SUBS_BILL_ACCT_ID ,
+  INLINE_VIEW_2.SALE_TXN_ID AS SALE_TXN_ID ,
+  INLINE_VIEW_2.TXN_FWDS_DTTM AS TXN_FWDS_DTTM ,
+  INLINE_VIEW_2.OFR_ID_3 AS OFR_ID_3 ,
+  INLINE_VIEW_2.OFR_GRP_3 AS OFR_GRP_3 ,
+  INLINE_VIEW_2.OFR_ISDSL_3 AS OFR_ISDSL_3 ,
+  INLINE_VIEW_2.SUBS_OFR_PROD_ID_3 AS SUBS_OFR_PROD_ID_3 ,
+  INLINE_VIEW_2.ORD_ID_2 AS ORD_ID_2 ,
+  INLINE_VIEW_2.ORD_LINE_CMPG_ID_2 AS ORD_LINE_CMPG_ID_2 ,
+  INLINE_VIEW_2.ORD_LINE_CNL_ID_2 AS ORD_LINE_CNL_ID_2 ,
+  INLINE_VIEW_2.ORD_LINE_INITIATE_USER_ID_2 AS ORD_LINE_INITIATE_USER_ID_2 ,
+  INLINE_VIEW_2.ORD_LINE_OFR_ID_2 AS ORD_LINE_OFR_ID_2 ,
+  INLINE_VIEW_2.ORD_LINE_SUBS_ID_2 AS ORD_LINE_SUBS_ID_2 ,
+  INLINE_VIEW_2.ORD_LINE_END_DATE_ID_2 AS ORD_LINE_END_DATE_ID_2 ,
+  INLINE_VIEW_2.ORD_LINE_ID_3 AS ORD_LINE_ID_3 ,
+  INLINE_VIEW_2.ORD_LINE_FCLT_OFC_ID_2 AS ORD_LINE_FCLT_OFC_ID_2 ,
+  INLINE_VIEW_2.ORD_LINE_PRTNR_ID_2 AS ORD_LINE_PRTNR_ID_2 ,
+  INLINE_VIEW_2.ORD_LINE_END_DATE_3 AS ORD_LINE_END_DATE_3 ,
+  INLINE_VIEW_2.ORD_LINE_CUST_ID_2 AS ORD_LINE_CUST_ID_2 ,
+  INLINE_VIEW_2.ORD_LINE_PROD_ID_2 AS ORD_LINE_PROD_ID_2 ,
+  INLINE_VIEW_2.ORD_LINE_WRK_ORG_ID_2 AS ORD_LINE_WRK_ORG_ID_2 ,
+  INLINE_VIEW_2.ORD_LINE_STRT_DATE_3 AS ORD_LINE_STRT_DATE_3 ,
+  INLINE_VIEW_2.ORD_LINE_INTER_INTL_RSN_CD_2 AS ORD_LINE_INTER_INTL_RSN_CD_2 ,
+  INLINE_VIEW_2.COL AS COL ,
+  INLINE_VIEW_2.SUBS_DSL_NO_1 AS SUBS_DSL_NO_1 ,
+  INLINE_VIEW_2.SUBS_PROD_ID_1 AS SUBS_PROD_ID_1 ,
+  INLINE_VIEW_2.SUBS_OFR_ID_1 AS SUBS_OFR_ID_1 ,
+  INLINE_VIEW_2.SUBS_BILL_ACCT_ID_1 AS SUBS_BILL_ACCT_ID_1 ,
+  INLINE_VIEW_2.TXN_FWDS_DTTM_1 AS TXN_FWDS_DTTM_1 ,
+  INLINE_VIEW_2.RETN_ACTV_DSL_SUBS_ID AS RETN_ACTV_DSL_SUBS_ID ,
+  INLINE_VIEW_2.RETN_ACTV_OFR_ID AS RETN_ACTV_OFR_ID ,
+  INLINE_VIEW_2.RETN_ACTV_END_DT_ID AS RETN_ACTV_END_DT_ID ,
+  INLINE_VIEW_2.OFR_ID_4 AS OFR_ID_4 ,
+  INLINE_VIEW_2.OFR_GRP_4 AS OFR_GRP_4 ,
+  INLINE_VIEW_2.OFR_ISDSL_4 AS OFR_ISDSL_4 ,
+  INLINE_VIEW_2.RETN_ACTV_DSL_SUBS_ID_1 AS RETN_ACTV_DSL_SUBS_ID_1 ,
+  INLINE_VIEW_2.RETN_ACTV_END_DT_ID_1 AS RETN_ACTV_END_DT_ID_1 ,
+  INLINE_VIEW_2.RETN_ACTV_BS_SUBS_ID AS RETN_ACTV_BS_SUBS_ID ,
+  INLINE_VIEW_2.RETN_ACTV_END_DT AS RETN_ACTV_END_DT ,
+  INLINE_VIEW_2.SUBS_SALE_ORD_LINE_ID AS SUBS_SALE_ORD_LINE_ID ,
+  INLINE_VIEW_2.SUBS_CHURN_SUBS_ID AS SUBS_CHURN_SUBS_ID ,
+  INLINE_VIEW_2.SUBS_CHURN_DATE AS SUBS_CHURN_DATE ,
+  INLINE_VIEW_2.EVNT_RSN_CD AS EVNT_RSN_CD ,
+  INLINE_VIEW_2.EVNT_RSN_NAME AS EVNT_RSN_NAME ,
+  INLINE_VIEW_2.CNL_ID AS CNL_ID ,
+  INLINE_VIEW_2.CNL_NAME AS CNL_NAME ,
+  INLINE_VIEW_2.COL_1 AS COL_1 ,
+  INLINE_VIEW_2.ORD_LINE_END_DATE_4 AS ORD_LINE_END_DATE_4 ,
+  INLINE_VIEW_2.COL_2 AS COL_2 ,
+  INLINE_VIEW_2.FWD_SDATE AS FWD_SDATE ,
+  INLINE_VIEW_2.ORD_LINE_STRT_DATE_4 AS ORD_LINE_STRT_DATE_4 ,
+  INLINE_VIEW_2.ORD_LINE_SUBS_ID_3 AS ORD_LINE_SUBS_ID_3 ,
+  INLINE_VIEW_2.SUBS_OFR_PROD_ID_4 AS SUBS_OFR_PROD_ID_4 ,
+  INLINE_VIEW_2.ORD_LINE_PROD_ID_3 AS ORD_LINE_PROD_ID_3 ,
+  INLINE_VIEW_2.ORD_LINE_OFR_ID_3 AS ORD_LINE_OFR_ID_3 ,
+  INLINE_VIEW_2.OFR_GRP_5 AS OFR_GRP_5 ,
+  INLINE_VIEW_2.SUBS_DSL_NO_2 AS SUBS_DSL_NO_2 ,
+  INLINE_VIEW_2.SUBS_PROD_ID_2 AS SUBS_PROD_ID_2 ,
+  INLINE_VIEW_2.SUBS_OFR_ID_2 AS SUBS_OFR_ID_2 ,
+  INLINE_VIEW_2.ORD_LINE_INITIATE_USER_ID_3 AS ORD_LINE_INITIATE_USER_ID_3 ,
+  INLINE_VIEW_2.ORD_LINE_CMPG_ID_3 AS ORD_LINE_CMPG_ID_3 ,
+  INLINE_VIEW_2.ORD_LINE_FCLT_OFC_ID_3 AS ORD_LINE_FCLT_OFC_ID_3 ,
+  INLINE_VIEW_2.ORD_LINE_CNL_ID_3 AS ORD_LINE_CNL_ID_3 ,
+  INLINE_VIEW_2.CNL_NAME_1 AS CNL_NAME_1 ,
+  INLINE_VIEW_2.ORD_LINE_CUST_ID_3 AS ORD_LINE_CUST_ID_3 ,
+  INLINE_VIEW_2.ORD_ID_3 AS ORD_ID_3 ,
+  INLINE_VIEW_2.ORD_LINE_ID_4 AS ORD_LINE_ID_4 ,
+  INLINE_VIEW_2.SUBS_BILL_ACCT_ID_2 AS SUBS_BILL_ACCT_ID_2 ,
+  INLINE_VIEW_2.OFR_ISLIMITED_2 AS OFR_ISLIMITED_2 ,
+  INLINE_VIEW_2.ORD_LINE_PRTNR_ID_3 AS ORD_LINE_PRTNR_ID_3 ,
+  INLINE_VIEW_2.ORD_LINE_WRK_ORG_ID_3 AS ORD_LINE_WRK_ORG_ID_3 ,
+  INLINE_VIEW_2.ORD_LINE_INTER_INTL_RSN_CD_3 AS ORD_LINE_INTER_INTL_RSN_CD_3 ,
+  INLINE_VIEW_2.EVNT_RSN_NAME_1 AS EVNT_RSN_NAME_1 ,
+  INLINE_VIEW_2.COL_3 AS COL_3 ,
+  INLINE_VIEW_2.COL_1 AS CLS_TYPE ,
+  INLINE_VIEW_2.ORD_LINE_END_DATE_4 AS ORD_LINE_END_DATE_5 ,
+  INLINE_VIEW_2.COL_2 AS OPEN_DATE_STG ,
+  INLINE_VIEW_2.FWD_SDATE AS END_DATE ,
+  INLINE_VIEW_2.ORD_LINE_STRT_DATE_4 AS ORD_LINE_STRT_DATE_5 ,
+  INLINE_VIEW_2.ORD_LINE_SUBS_ID_3 AS ORD_LINE_SUBS_ID_4 ,
+  INLINE_VIEW_2.SUBS_OFR_PROD_ID_4 AS SUBS_OFR_PROD_ID_5 ,
+  INLINE_VIEW_2.ORD_LINE_PROD_ID_3 AS ORD_LINE_PROD_ID_4 ,
+  INLINE_VIEW_2.ORD_LINE_OFR_ID_3 AS ORD_LINE_OFR_ID_4 ,
+  INLINE_VIEW_2.OFR_GRP_5 AS OFR_GRP_6 ,
+  INLINE_VIEW_2.SUBS_DSL_NO_2 AS SUBS_DSL_NO_3 ,
+  INLINE_VIEW_2.SUBS_PROD_ID_2 AS SUBS_PROD_ID_3 ,
+  INLINE_VIEW_2.SUBS_OFR_ID_2 AS SUBS_OFR_ID_3 ,
+  INLINE_VIEW_2.ORD_LINE_INITIATE_USER_ID_3 AS ORD_LINE_INITIATE_USER_ID_4 ,
+  INLINE_VIEW_2.ORD_LINE_CMPG_ID_3 AS ORD_LINE_CMPG_ID_4 ,
+  INLINE_VIEW_2.ORD_LINE_FCLT_OFC_ID_3 AS ORD_LINE_FCLT_OFC_ID_4 ,
+  INLINE_VIEW_2.ORD_LINE_CNL_ID_3 AS ORD_LINE_CNL_ID_4 ,
+  INLINE_VIEW_2.CNL_NAME_1 AS CNL_NAME_2 ,
+  INLINE_VIEW_2.ORD_LINE_CUST_ID_3 AS ORD_LINE_CUST_ID_4 ,
+  INLINE_VIEW_2.ORD_ID_3 AS ORD_ID_4 ,
+  INLINE_VIEW_2.ORD_LINE_ID_4 AS ORD_LINE_ID_5 ,
+  INLINE_VIEW_2.SUBS_BILL_ACCT_ID_2 AS SUBS_BILL_ACCT_ID_3 ,
+  INLINE_VIEW_2.OFR_ISLIMITED_2 AS OFR_ISLIMITED_3 ,
+  INLINE_VIEW_2.ORD_LINE_PRTNR_ID_3 AS ORD_LINE_PRTNR_ID_4 ,
+  INLINE_VIEW_2.ORD_LINE_WRK_ORG_ID_3 AS ORD_LINE_WRK_ORG_ID_4 ,
+  INLINE_VIEW_2.ORD_LINE_INTER_INTL_RSN_CD_3 AS ORD_LINE_INTER_INTL_RSN_CD_4 ,
+  INLINE_VIEW_2.EVNT_RSN_NAME_1 AS EVNT_RSN_NAME_2   
+FROM 
+  (
+SELECT 
+  OFR_DIM_1_1_7.OFR_ID AS OFR_ID ,
+  OFR_DIM_1_1_7.OFR_GRP AS OFR_GRP ,
+  OFR_DIM_1_1_7.OFR_ISDSL AS OFR_ISDSL ,
+  OFR_DIM_1_1_7.OFR_ISLIMITED AS OFR_ISLIMITED ,
+  OFR_DIM_1_1_7.OFR_ID_1 AS OFR_ID_1 ,
+  OFR_DIM_1_1_7.OFR_GRP_1 AS OFR_GRP_1 ,
+  OFR_DIM_1_1_7.OFR_ISDSL_1 AS OFR_ISDSL_1 ,
+  OFR_DIM_1_1_7.OFR_ISLIMITED_1 AS OFR_ISLIMITED_1 ,
+  INLINE_VIEW.ORD_LINE_PREV_PROD_ID AS ORD_LINE_PREV_PROD_ID ,
+  INLINE_VIEW.ORD_LINE_RPT_OFC_ID AS ORD_LINE_RPT_OFC_ID ,
+  INLINE_VIEW.ORD_LINE_STRT_DATE_ID AS ORD_LINE_STRT_DATE_ID ,
+  INLINE_VIEW.SUBS_OFR_PROD_ID AS SUBS_OFR_PROD_ID ,
+  INLINE_VIEW.ORD_ID AS ORD_ID ,
+  INLINE_VIEW.ORD_LINE_PREV_OFR_ID AS ORD_LINE_PREV_OFR_ID ,
+  INLINE_VIEW.ORD_LINE_TP_CD AS ORD_LINE_TP_CD ,
+  INLINE_VIEW.ORD_LINE_CMPG_ID AS ORD_LINE_CMPG_ID ,
+  INLINE_VIEW.ORD_LINE_ST_CD AS ORD_LINE_ST_CD ,
+  INLINE_VIEW.ORD_LINE_CNL_ID AS ORD_LINE_CNL_ID ,
+  INLINE_VIEW.ORD_LINE_INTER_CLS_CD AS ORD_LINE_INTER_CLS_CD ,
+  INLINE_VIEW.ORD_LINE_INITIATE_USER_ID AS ORD_LINE_INITIATE_USER_ID ,
+  INLINE_VIEW.ORD_LINE_OFR_ID AS ORD_LINE_OFR_ID ,
+  INLINE_VIEW.ORD_LINE_SUBS_ID AS ORD_LINE_SUBS_ID ,
+  INLINE_VIEW.ORD_LINE_END_DATE_ID AS ORD_LINE_END_DATE_ID ,
+  INLINE_VIEW.TRANS_SUBS_OFR_PROD_ID AS TRANS_SUBS_OFR_PROD_ID ,
+  INLINE_VIEW.ORD_LINE_ID AS ORD_LINE_ID ,
+  INLINE_VIEW.ORD_LINE_TRANS_INDC AS ORD_LINE_TRANS_INDC ,
+  INLINE_VIEW.ORD_LINE_FCLT_OFC_ID AS ORD_LINE_FCLT_OFC_ID ,
+  INLINE_VIEW.ORD_LINE_UPD_USER_ID AS ORD_LINE_UPD_USER_ID ,
+  INLINE_VIEW.ORD_LINE_PRTNR_ID AS ORD_LINE_PRTNR_ID ,
+  INLINE_VIEW.ORD_LINE_END_DATE AS ORD_LINE_END_DATE ,
+  INLINE_VIEW.ORD_LINE_CUST_ID AS ORD_LINE_CUST_ID ,
+  INLINE_VIEW.ORD_LINE_PREV_CUST_ID AS ORD_LINE_PREV_CUST_ID ,
+  INLINE_VIEW.ORD_LINE_CUR_CD AS ORD_LINE_CUR_CD ,
+  INLINE_VIEW.ORD_LINE_INTER_ID AS ORD_LINE_INTER_ID ,
+  INLINE_VIEW.ORD_LINE_PROD_ID AS ORD_LINE_PROD_ID ,
+  INLINE_VIEW.ORD_LINE_INTER_ORIG_CLS_CD AS ORD_LINE_INTER_ORIG_CLS_CD ,
+  INLINE_VIEW.ORD_LINE_INTER_EXT_RSN_CD AS ORD_LINE_INTER_EXT_RSN_CD ,
+  INLINE_VIEW.ORD_LINE_SALE_PRTNR_ID AS ORD_LINE_SALE_PRTNR_ID ,
+  INLINE_VIEW.DWH_LOAD AS DWH_LOAD ,
+  INLINE_VIEW.ORD_LINE_CMPG_TRANS_INDC AS ORD_LINE_CMPG_TRANS_INDC ,
+  INLINE_VIEW.ORD_LINE_SRVC_NO AS ORD_LINE_SRVC_NO ,
+  INLINE_VIEW.ORD_LINE_DSL_NO AS ORD_LINE_DSL_NO ,
+  INLINE_VIEW.ORD_LINE_WRK_ORG_ID AS ORD_LINE_WRK_ORG_ID ,
+  INLINE_VIEW.ORD_LINE_UOM_CD AS ORD_LINE_UOM_CD ,
+  INLINE_VIEW.ORD_LINE_STRT_DATE AS ORD_LINE_STRT_DATE ,
+  INLINE_VIEW.ORD_LINE_INTER_INTL_RSN_CD AS ORD_LINE_INTER_INTL_RSN_CD ,
+  INLINE_VIEW.ORD_LINE_DATEDIFF_HOUR AS ORD_LINE_DATEDIFF_HOUR ,
+  INLINE_VIEW.ORD_LINE_PROD_SALE_FLG AS ORD_LINE_PROD_SALE_FLG ,
+  INLINE_VIEW.ORD_LINE_PROD_CANCEL_FLG AS ORD_LINE_PROD_CANCEL_FLG ,
+  INLINE_VIEW.ORD_LINE_CMPG_SALE_FLG AS ORD_LINE_CMPG_SALE_FLG ,
+  INLINE_VIEW.ORD_LINE_NEW_CMPG_SALE_FLG AS ORD_LINE_NEW_CMPG_SALE_FLG ,
+  INLINE_VIEW.ORD_LINE_CURR_CMPG_SALE_FLG AS ORD_LINE_CURR_CMPG_SALE_FLG ,
+  INLINE_VIEW.ORD_LINE_PREV_CMPG_ID AS ORD_LINE_PREV_CMPG_ID ,
+  INLINE_VIEW.ORD_LINE_ACTV_DTTM AS ORD_LINE_ACTV_DTTM ,
+  INLINE_VIEW.ORD_LINE_MKTNG_CUST_TP AS ORD_LINE_MKTNG_CUST_TP ,
+  INLINE_VIEW.CONN_SUBS_OFR_PROD_ID AS CONN_SUBS_OFR_PROD_ID ,
+  INLINE_VIEW.CONN_SUBS_ID AS CONN_SUBS_ID ,
+  INLINE_VIEW.ORD_LINE_POSTN_ROLE_CD AS ORD_LINE_POSTN_ROLE_CD ,
+  INLINE_VIEW.ORD_LINE_POSTN_ID AS ORD_LINE_POSTN_ID ,
+  INLINE_VIEW.UPSELL_TP AS UPSELL_TP ,
+  INLINE_VIEW.PRNT_OFR_ID AS PRNT_OFR_ID ,
+  INLINE_VIEW.PREV_PRNT_OFR_ID AS PREV_PRNT_OFR_ID ,
+  INLINE_VIEW.SUBS_ID AS SUBS_ID ,
+  INLINE_VIEW.OFR_ID AS OFR_ID_2 ,
+  INLINE_VIEW.OFR_GRP AS OFR_GRP_2 ,
+  INLINE_VIEW.OFR_ISDSL AS OFR_ISDSL_2 ,
+  INLINE_VIEW.SUBS_OFR_PROD_ID_1 AS SUBS_OFR_PROD_ID_1 ,
+  INLINE_VIEW.ORD_LINE_ID_1 AS ORD_LINE_ID_1 ,
+  INLINE_VIEW.ORD_LINE_END_DATE_1 AS ORD_LINE_END_DATE_1 ,
+  INLINE_VIEW.ORD_LINE_STRT_DATE_1 AS ORD_LINE_STRT_DATE_1 ,
+  INLINE_VIEW_1.ORD_LINE_PREV_PROD_ID AS ORD_LINE_PREV_PROD_ID_1 ,
+  INLINE_VIEW_1.ORD_LINE_RPT_OFC_ID AS ORD_LINE_RPT_OFC_ID_1 ,
+  INLINE_VIEW_1.ORD_LINE_STRT_DATE_ID AS ORD_LINE_STRT_DATE_ID_1 ,
+  INLINE_VIEW_1.SUBS_OFR_PROD_ID AS SUBS_OFR_PROD_ID_2 ,
+  INLINE_VIEW_1.ORD_ID AS ORD_ID_1 ,
+  INLINE_VIEW_1.ORD_LINE_PREV_OFR_ID AS ORD_LINE_PREV_OFR_ID_1 ,
+  INLINE_VIEW_1.ORD_LINE_TP_CD AS ORD_LINE_TP_CD_1 ,
+  INLINE_VIEW_1.ORD_LINE_CMPG_ID AS ORD_LINE_CMPG_ID_1 ,
+  INLINE_VIEW_1.ORD_LINE_ST_CD AS ORD_LINE_ST_CD_1 ,
+  INLINE_VIEW_1.ORD_LINE_CNL_ID AS ORD_LINE_CNL_ID_1 ,
+  INLINE_VIEW_1.ORD_LINE_INTER_CLS_CD AS ORD_LINE_INTER_CLS_CD_1 ,
+  INLINE_VIEW_1.ORD_LINE_INITIATE_USER_ID AS ORD_LINE_INITIATE_USER_ID_1 ,
+  INLINE_VIEW_1.ORD_LINE_OFR_ID AS ORD_LINE_OFR_ID_1 ,
+  INLINE_VIEW_1.ORD_LINE_SUBS_ID AS ORD_LINE_SUBS_ID_1 ,
+  INLINE_VIEW_1.ORD_LINE_END_DATE_ID AS ORD_LINE_END_DATE_ID_1 ,
+  INLINE_VIEW_1.TRANS_SUBS_OFR_PROD_ID AS TRANS_SUBS_OFR_PROD_ID_1 ,
+  INLINE_VIEW_1.ORD_LINE_ID AS ORD_LINE_ID_2 ,
+  INLINE_VIEW_1.ORD_LINE_TRANS_INDC AS ORD_LINE_TRANS_INDC_1 ,
+  INLINE_VIEW_1.ORD_LINE_FCLT_OFC_ID AS ORD_LINE_FCLT_OFC_ID_1 ,
+  INLINE_VIEW_1.ORD_LINE_UPD_USER_ID AS ORD_LINE_UPD_USER_ID_1 ,
+  INLINE_VIEW_1.ORD_LINE_PRTNR_ID AS ORD_LINE_PRTNR_ID_1 ,
+  INLINE_VIEW_1.ORD_LINE_END_DATE AS ORD_LINE_END_DATE_2 ,
+  INLINE_VIEW_1.ORD_LINE_CUST_ID AS ORD_LINE_CUST_ID_1 ,
+  INLINE_VIEW_1.ORD_LINE_PREV_CUST_ID AS ORD_LINE_PREV_CUST_ID_1 ,
+  INLINE_VIEW_1.ORD_LINE_CUR_CD AS ORD_LINE_CUR_CD_1 ,
+  INLINE_VIEW_1.ORD_LINE_INTER_ID AS ORD_LINE_INTER_ID_1 ,
+  INLINE_VIEW_1.ORD_LINE_PROD_ID AS ORD_LINE_PROD_ID_1 ,
+  INLINE_VIEW_1.ORD_LINE_INTER_ORIG_CLS_CD AS ORD_LINE_INTER_ORIG_CLS_CD_1 ,
+  INLINE_VIEW_1.ORD_LINE_INTER_EXT_RSN_CD AS ORD_LINE_INTER_EXT_RSN_CD_1 ,
+  INLINE_VIEW_1.ORD_LINE_SALE_PRTNR_ID AS ORD_LINE_SALE_PRTNR_ID_1 ,
+  INLINE_VIEW_1.DWH_LOAD AS DWH_LOAD_1 ,
+  INLINE_VIEW_1.ORD_LINE_CMPG_TRANS_INDC AS ORD_LINE_CMPG_TRANS_INDC_1 ,
+  INLINE_VIEW_1.ORD_LINE_SRVC_NO AS ORD_LINE_SRVC_NO_1 ,
+  INLINE_VIEW_1.ORD_LINE_DSL_NO AS ORD_LINE_DSL_NO_1 ,
+  INLINE_VIEW_1.ORD_LINE_WRK_ORG_ID AS ORD_LINE_WRK_ORG_ID_1 ,
+  INLINE_VIEW_1.ORD_LINE_UOM_CD AS ORD_LINE_UOM_CD_1 ,
+  INLINE_VIEW_1.ORD_LINE_STRT_DATE AS ORD_LINE_STRT_DATE_2 ,
+  INLINE_VIEW_1.ORD_LINE_INTER_INTL_RSN_CD AS ORD_LINE_INTER_INTL_RSN_CD_1 ,
+  INLINE_VIEW_1.ORD_LINE_DATEDIFF_HOUR AS ORD_LINE_DATEDIFF_HOUR_1 ,
+  INLINE_VIEW_1.ORD_LINE_PROD_SALE_FLG AS ORD_LINE_PROD_SALE_FLG_1 ,
+  INLINE_VIEW_1.ORD_LINE_PROD_CANCEL_FLG AS ORD_LINE_PROD_CANCEL_FLG_1 ,
+  INLINE_VIEW_1.ORD_LINE_CMPG_SALE_FLG AS ORD_LINE_CMPG_SALE_FLG_1 ,
+  INLINE_VIEW_1.ORD_LINE_NEW_CMPG_SALE_FLG AS ORD_LINE_NEW_CMPG_SALE_FLG_1 ,
+  INLINE_VIEW_1.ORD_LINE_CURR_CMPG_SALE_FLG AS ORD_LINE_CURR_CMPG_SALE_FLG_1 ,
+  INLINE_VIEW_1.ORD_LINE_PREV_CMPG_ID AS ORD_LINE_PREV_CMPG_ID_1 ,
+  INLINE_VIEW_1.ORD_LINE_ACTV_DTTM AS ORD_LINE_ACTV_DTTM_1 ,
+  INLINE_VIEW_1.ORD_LINE_MKTNG_CUST_TP AS ORD_LINE_MKTNG_CUST_TP_1 ,
+  INLINE_VIEW_1.CONN_SUBS_OFR_PROD_ID AS CONN_SUBS_OFR_PROD_ID_1 ,
+  INLINE_VIEW_1.CONN_SUBS_ID AS CONN_SUBS_ID_1 ,
+  INLINE_VIEW_1.ORD_LINE_POSTN_ROLE_CD AS ORD_LINE_POSTN_ROLE_CD_1 ,
+  INLINE_VIEW_1.ORD_LINE_POSTN_ID AS ORD_LINE_POSTN_ID_1 ,
+  INLINE_VIEW_1.UPSELL_TP AS UPSELL_TP_1 ,
+  INLINE_VIEW_1.PRNT_OFR_ID AS PRNT_OFR_ID_1 ,
+  INLINE_VIEW_1.PREV_PRNT_OFR_ID AS PREV_PRNT_OFR_ID_1 ,
+  INLINE_VIEW_1.SUBS_ID AS SUBS_ID_1 ,
+  INLINE_VIEW_1.SUBS_OFR_ID AS SUBS_OFR_ID ,
+  INLINE_VIEW_1.SUBS_PROD_ID AS SUBS_PROD_ID ,
+  INLINE_VIEW_1.SUBS_DSL_NO AS SUBS_DSL_NO ,
+  INLINE_VIEW_1.SUBS_BILL_ACCT_ID AS SUBS_BILL_ACCT_ID ,
+  INLINE_VIEW_1.SALE_TXN_ID AS SALE_TXN_ID ,
+  INLINE_VIEW_1.TXN_FWDS_DTTM AS TXN_FWDS_DTTM ,
+  INLINE_VIEW_1.OFR_ID AS OFR_ID_3 ,
+  INLINE_VIEW_1.OFR_GRP AS OFR_GRP_3 ,
+  INLINE_VIEW_1.OFR_ISDSL AS OFR_ISDSL_3 ,
+  INLINE_VIEW_1.SUBS_OFR_PROD_ID_1 AS SUBS_OFR_PROD_ID_3 ,
+  INLINE_VIEW_1.ORD_ID_1 AS ORD_ID_2 ,
+  INLINE_VIEW_1.ORD_LINE_CMPG_ID_1 AS ORD_LINE_CMPG_ID_2 ,
+  INLINE_VIEW_1.ORD_LINE_CNL_ID_1 AS ORD_LINE_CNL_ID_2 ,
+  INLINE_VIEW_1.ORD_LINE_INITIATE_USER_ID_1 AS ORD_LINE_INITIATE_USER_ID_2 ,
+  INLINE_VIEW_1.ORD_LINE_OFR_ID_1 AS ORD_LINE_OFR_ID_2 ,
+  INLINE_VIEW_1.ORD_LINE_SUBS_ID_1 AS ORD_LINE_SUBS_ID_2 ,
+  INLINE_VIEW_1.ORD_LINE_END_DATE_ID_1 AS ORD_LINE_END_DATE_ID_2 ,
+  INLINE_VIEW_1.ORD_LINE_ID_1 AS ORD_LINE_ID_3 ,
+  INLINE_VIEW_1.ORD_LINE_FCLT_OFC_ID_1 AS ORD_LINE_FCLT_OFC_ID_2 ,
+  INLINE_VIEW_1.ORD_LINE_PRTNR_ID_1 AS ORD_LINE_PRTNR_ID_2 ,
+  INLINE_VIEW_1.ORD_LINE_END_DATE_1 AS ORD_LINE_END_DATE_3 ,
+  INLINE_VIEW_1.ORD_LINE_CUST_ID_1 AS ORD_LINE_CUST_ID_2 ,
+  INLINE_VIEW_1.ORD_LINE_PROD_ID_1 AS ORD_LINE_PROD_ID_2 ,
+  INLINE_VIEW_1.ORD_LINE_WRK_ORG_ID_1 AS ORD_LINE_WRK_ORG_ID_2 ,
+  INLINE_VIEW_1.ORD_LINE_STRT_DATE_1 AS ORD_LINE_STRT_DATE_3 ,
+  INLINE_VIEW_1.ORD_LINE_INTER_INTL_RSN_CD_1 AS ORD_LINE_INTER_INTL_RSN_CD_2 ,
+  INLINE_VIEW_1.COL AS COL ,
+  INLINE_VIEW_1.SUBS_DSL_NO_1 AS SUBS_DSL_NO_1 ,
+  INLINE_VIEW_1.SUBS_PROD_ID_1 AS SUBS_PROD_ID_1 ,
+  INLINE_VIEW_1.SUBS_OFR_ID_1 AS SUBS_OFR_ID_1 ,
+  INLINE_VIEW_1.SUBS_BILL_ACCT_ID_1 AS SUBS_BILL_ACCT_ID_1 ,
+  INLINE_VIEW_1.TXN_FWDS_DTTM_1 AS TXN_FWDS_DTTM_1 ,
+  RETN_ACTV_1_1_3_1.RETN_ACTV_DSL_SUBS_ID AS RETN_ACTV_DSL_SUBS_ID ,
+  RETN_ACTV_1_1_3_1.RETN_ACTV_OFR_ID AS RETN_ACTV_OFR_ID ,
+  RETN_ACTV_1_1_3_1.RETN_ACTV_END_DT_ID AS RETN_ACTV_END_DT_ID ,
+  OFR_DIM_1_1_3_2.OFR_ID AS OFR_ID_4 ,
+  OFR_DIM_1_1_3_2.OFR_GRP AS OFR_GRP_4 ,
+  OFR_DIM_1_1_3_2.OFR_ISDSL AS OFR_ISDSL_4 ,
+  RETN_ACTV_1_1_3_1.RETN_ACTV_DSL_SUBS_ID AS RETN_ACTV_DSL_SUBS_ID_1 ,
+  RETN_ACTV_1_1_3_1.RETN_ACTV_END_DT_ID AS RETN_ACTV_END_DT_ID_1 ,
+  RETN_HSTR_1_1_4.RETN_ACTV_BS_SUBS_ID AS RETN_ACTV_BS_SUBS_ID ,
+  RETN_HSTR_1_1_4.RETN_ACTV_END_DT AS RETN_ACTV_END_DT ,
+  SUBS_SALE_1_1_5.SUBS_SALE_ORD_LINE_ID AS SUBS_SALE_ORD_LINE_ID ,
+  SUBS_CHURN_1_1_6.SUBS_CHURN_SUBS_ID AS SUBS_CHURN_SUBS_ID ,
+  SUBS_CHURN_1_1_6.SUBS_CHURN_DATE AS SUBS_CHURN_DATE ,
+  EVNT_RSN_DIM_1_1_8.EVNT_RSN_CD AS EVNT_RSN_CD ,
+  EVNT_RSN_DIM_1_1_8.EVNT_RSN_NAME AS EVNT_RSN_NAME ,
+  CNL_DIM_1_1_9.CNL_ID AS CNL_ID ,
+  CNL_DIM_1_1_9.CNL_NAME AS CNL_NAME ,
+  CASE
+                                      WHEN    RETN_ACTV_1_1_3_1.RETN_ACTV_DSL_SUBS_ID
+                                                 IS NOT NULL
+                                           OR RETN_HSTR_1_1_4.RETN_ACTV_BS_SUBS_ID
+                                                 IS NOT NULL
+                                      THEN
+                                         'CHURN DONDURMA'
+                                      ELSE
+                                         'DONDURMA'
+                                   END AS COL_1 ,
+  INLINE_VIEW_1.ORD_LINE_END_DATE_1 AS ORD_LINE_END_DATE_4 ,
+  CASE
+                                      WHEN INLINE_VIEW_1.TXN_FWDS_DTTM_1 <
+                                              TRUNC (CURRENT_TIMESTAMP)
+                                      THEN
+                                         COALESCE (INLINE_VIEW.ORD_LINE_END_DATE_1,
+                                                   SUBS_CHURN_1_1_6.SUBS_CHURN_DATE,
+                                                   INLINE_VIEW_1.TXN_FWDS_DTTM_1)
+                                      ELSE
+                                         COALESCE (INLINE_VIEW.ORD_LINE_END_DATE_1,
+                                                   SUBS_CHURN_1_1_6.SUBS_CHURN_DATE)
+                                   END AS COL_2 ,
+  INLINE_VIEW_1.TXN_FWDS_DTTM_1 AS FWD_SDATE ,
+  INLINE_VIEW_1.ORD_LINE_STRT_DATE_1 AS ORD_LINE_STRT_DATE_4 ,
+  INLINE_VIEW_1.ORD_LINE_SUBS_ID_1 AS ORD_LINE_SUBS_ID_3 ,
+  INLINE_VIEW_1.SUBS_OFR_PROD_ID_1 AS SUBS_OFR_PROD_ID_4 ,
+  INLINE_VIEW_1.ORD_LINE_PROD_ID_1 AS ORD_LINE_PROD_ID_3 ,
+  INLINE_VIEW_1.ORD_LINE_OFR_ID_1 AS ORD_LINE_OFR_ID_3 ,
+  OFR_DIM_1_1_7.OFR_GRP_1 AS OFR_GRP_5 ,
+  INLINE_VIEW_1.SUBS_DSL_NO_1 AS SUBS_DSL_NO_2 ,
+  INLINE_VIEW_1.SUBS_PROD_ID_1 AS SUBS_PROD_ID_2 ,
+  INLINE_VIEW_1.SUBS_OFR_ID_1 AS SUBS_OFR_ID_2 ,
+  INLINE_VIEW_1.ORD_LINE_INITIATE_USER_ID_1 AS ORD_LINE_INITIATE_USER_ID_3 ,
+  INLINE_VIEW_1.ORD_LINE_CMPG_ID_1 AS ORD_LINE_CMPG_ID_3 ,
+  INLINE_VIEW_1.ORD_LINE_FCLT_OFC_ID_1 AS ORD_LINE_FCLT_OFC_ID_3 ,
+  INLINE_VIEW_1.ORD_LINE_CNL_ID_1 AS ORD_LINE_CNL_ID_3 ,
+  CNL_DIM_1_1_9.CNL_NAME AS CNL_NAME_1 ,
+  INLINE_VIEW_1.ORD_LINE_CUST_ID_1 AS ORD_LINE_CUST_ID_3 ,
+  INLINE_VIEW_1.ORD_ID_1 AS ORD_ID_3 ,
+  INLINE_VIEW_1.ORD_LINE_ID_1 AS ORD_LINE_ID_4 ,
+  INLINE_VIEW_1.SUBS_BILL_ACCT_ID_1 AS SUBS_BILL_ACCT_ID_2 ,
+  OFR_DIM_1_1_7.OFR_ISLIMITED_1 AS OFR_ISLIMITED_2 ,
+  INLINE_VIEW_1.ORD_LINE_PRTNR_ID_1 AS ORD_LINE_PRTNR_ID_3 ,
+  INLINE_VIEW_1.ORD_LINE_WRK_ORG_ID_1 AS ORD_LINE_WRK_ORG_ID_3 ,
+  INLINE_VIEW_1.ORD_LINE_INTER_INTL_RSN_CD_1 AS ORD_LINE_INTER_INTL_RSN_CD_3 ,
+  EVNT_RSN_DIM_1_1_8.EVNT_RSN_NAME AS EVNT_RSN_NAME_1 ,
+  ROW_NUMBER ()
+                                   OVER (PARTITION BY INLINE_VIEW_1.ORD_LINE_ID_1
+                                         ORDER BY INLINE_VIEW.ORD_LINE_ID_1 DESC) AS COL_3   
+FROM 
+  ((((((((
+SELECT 
+  ORD_LINE_FC_1_1_1_1.ORD_LINE_PREV_PROD_ID AS ORD_LINE_PREV_PROD_ID ,
+  ORD_LINE_FC_1_1_1_1.ORD_LINE_RPT_OFC_ID AS ORD_LINE_RPT_OFC_ID ,
+  ORD_LINE_FC_1_1_1_1.ORD_LINE_STRT_DATE_ID AS ORD_LINE_STRT_DATE_ID ,
+  ORD_LINE_FC_1_1_1_1.SUBS_OFR_PROD_ID AS SUBS_OFR_PROD_ID ,
+  ORD_LINE_FC_1_1_1_1.ORD_ID AS ORD_ID ,
+  ORD_LINE_FC_1_1_1_1.ORD_LINE_PREV_OFR_ID AS ORD_LINE_PREV_OFR_ID ,
+  ORD_LINE_FC_1_1_1_1.ORD_LINE_TP_CD AS ORD_LINE_TP_CD ,
+  ORD_LINE_FC_1_1_1_1.ORD_LINE_CMPG_ID AS ORD_LINE_CMPG_ID ,
+  ORD_LINE_FC_1_1_1_1.ORD_LINE_ST_CD AS ORD_LINE_ST_CD ,
+  ORD_LINE_FC_1_1_1_1.ORD_LINE_CNL_ID AS ORD_LINE_CNL_ID ,
+  ORD_LINE_FC_1_1_1_1.ORD_LINE_INTER_CLS_CD AS ORD_LINE_INTER_CLS_CD ,
+  ORD_LINE_FC_1_1_1_1.ORD_LINE_INITIATE_USER_ID AS ORD_LINE_INITIATE_USER_ID ,
+  ORD_LINE_FC_1_1_1_1.ORD_LINE_OFR_ID AS ORD_LINE_OFR_ID ,
+  ORD_LINE_FC_1_1_1_1.ORD_LINE_SUBS_ID AS ORD_LINE_SUBS_ID ,
+  ORD_LINE_FC_1_1_1_1.ORD_LINE_END_DATE_ID AS ORD_LINE_END_DATE_ID ,
+  ORD_LINE_FC_1_1_1_1.TRANS_SUBS_OFR_PROD_ID AS TRANS_SUBS_OFR_PROD_ID ,
+  ORD_LINE_FC_1_1_1_1.ORD_LINE_ID AS ORD_LINE_ID ,
+  ORD_LINE_FC_1_1_1_1.ORD_LINE_TRANS_INDC AS ORD_LINE_TRANS_INDC ,
+  ORD_LINE_FC_1_1_1_1.ORD_LINE_FCLT_OFC_ID AS ORD_LINE_FCLT_OFC_ID ,
+  ORD_LINE_FC_1_1_1_1.ORD_LINE_UPD_USER_ID AS ORD_LINE_UPD_USER_ID ,
+  ORD_LINE_FC_1_1_1_1.ORD_LINE_PRTNR_ID AS ORD_LINE_PRTNR_ID ,
+  ORD_LINE_FC_1_1_1_1.ORD_LINE_END_DATE AS ORD_LINE_END_DATE ,
+  ORD_LINE_FC_1_1_1_1.ORD_LINE_CUST_ID AS ORD_LINE_CUST_ID ,
+  ORD_LINE_FC_1_1_1_1.ORD_LINE_PREV_CUST_ID AS ORD_LINE_PREV_CUST_ID ,
+  ORD_LINE_FC_1_1_1_1.ORD_LINE_CUR_CD AS ORD_LINE_CUR_CD ,
+  ORD_LINE_FC_1_1_1_1.ORD_LINE_INTER_ID AS ORD_LINE_INTER_ID ,
+  ORD_LINE_FC_1_1_1_1.ORD_LINE_PROD_ID AS ORD_LINE_PROD_ID ,
+  ORD_LINE_FC_1_1_1_1.ORD_LINE_INTER_ORIG_CLS_CD AS ORD_LINE_INTER_ORIG_CLS_CD ,
+  ORD_LINE_FC_1_1_1_1.ORD_LINE_INTER_EXT_RSN_CD AS ORD_LINE_INTER_EXT_RSN_CD ,
+  ORD_LINE_FC_1_1_1_1.ORD_LINE_SALE_PRTNR_ID AS ORD_LINE_SALE_PRTNR_ID ,
+  ORD_LINE_FC_1_1_1_1.DWH_LOAD AS DWH_LOAD ,
+  ORD_LINE_FC_1_1_1_1.ORD_LINE_CMPG_TRANS_INDC AS ORD_LINE_CMPG_TRANS_INDC ,
+  ORD_LINE_FC_1_1_1_1.ORD_LINE_SRVC_NO AS ORD_LINE_SRVC_NO ,
+  ORD_LINE_FC_1_1_1_1.ORD_LINE_DSL_NO AS ORD_LINE_DSL_NO ,
+  ORD_LINE_FC_1_1_1_1.ORD_LINE_WRK_ORG_ID AS ORD_LINE_WRK_ORG_ID ,
+  ORD_LINE_FC_1_1_1_1.ORD_LINE_UOM_CD AS ORD_LINE_UOM_CD ,
+  ORD_LINE_FC_1_1_1_1.ORD_LINE_STRT_DATE AS ORD_LINE_STRT_DATE ,
+  ORD_LINE_FC_1_1_1_1.ORD_LINE_INTER_INTL_RSN_CD AS ORD_LINE_INTER_INTL_RSN_CD ,
+  ORD_LINE_FC_1_1_1_1.ORD_LINE_DATEDIFF_HOUR AS ORD_LINE_DATEDIFF_HOUR ,
+  ORD_LINE_FC_1_1_1_1.ORD_LINE_PROD_SALE_FLG AS ORD_LINE_PROD_SALE_FLG ,
+  ORD_LINE_FC_1_1_1_1.ORD_LINE_PROD_CANCEL_FLG AS ORD_LINE_PROD_CANCEL_FLG ,
+  ORD_LINE_FC_1_1_1_1.ORD_LINE_CMPG_SALE_FLG AS ORD_LINE_CMPG_SALE_FLG ,
+  ORD_LINE_FC_1_1_1_1.ORD_LINE_NEW_CMPG_SALE_FLG AS ORD_LINE_NEW_CMPG_SALE_FLG ,
+  ORD_LINE_FC_1_1_1_1.ORD_LINE_CURR_CMPG_SALE_FLG AS ORD_LINE_CURR_CMPG_SALE_FLG ,
+  ORD_LINE_FC_1_1_1_1.ORD_LINE_PREV_CMPG_ID AS ORD_LINE_PREV_CMPG_ID ,
+  ORD_LINE_FC_1_1_1_1.ORD_LINE_ACTV_DTTM AS ORD_LINE_ACTV_DTTM ,
+  ORD_LINE_FC_1_1_1_1.ORD_LINE_MKTNG_CUST_TP AS ORD_LINE_MKTNG_CUST_TP ,
+  ORD_LINE_FC_1_1_1_1.CONN_SUBS_OFR_PROD_ID AS CONN_SUBS_OFR_PROD_ID ,
+  ORD_LINE_FC_1_1_1_1.CONN_SUBS_ID AS CONN_SUBS_ID ,
+  ORD_LINE_FC_1_1_1_1.ORD_LINE_POSTN_ROLE_CD AS ORD_LINE_POSTN_ROLE_CD ,
+  ORD_LINE_FC_1_1_1_1.ORD_LINE_POSTN_ID AS ORD_LINE_POSTN_ID ,
+  ORD_LINE_FC_1_1_1_1.UPSELL_TP AS UPSELL_TP ,
+  ORD_LINE_FC_1_1_1_1.PRNT_OFR_ID AS PRNT_OFR_ID ,
+  ORD_LINE_FC_1_1_1_1.PREV_PRNT_OFR_ID AS PREV_PRNT_OFR_ID ,
+  SUBS_DIM_1_1_1_2.SUBS_ID AS SUBS_ID ,
+  SUBS_DIM_1_1_1_2.SUBS_OFR_ID AS SUBS_OFR_ID ,
+  SUBS_DIM_1_1_1_2.SUBS_PROD_ID AS SUBS_PROD_ID ,
+  SUBS_DIM_1_1_1_2.SUBS_DSL_NO AS SUBS_DSL_NO ,
+  SUBS_DIM_1_1_1_2.SUBS_BILL_ACCT_ID AS SUBS_BILL_ACCT_ID ,
+  SALE_TXN_1_1_1_3.SALE_TXN_ID AS SALE_TXN_ID ,
+  SALE_TXN_1_1_1_3.TXN_FWDS_DTTM AS TXN_FWDS_DTTM ,
+  OFR_DIM_1_1_1_4.OFR_ID AS OFR_ID ,
+  OFR_DIM_1_1_1_4.OFR_GRP AS OFR_GRP ,
+  OFR_DIM_1_1_1_4.OFR_ISDSL AS OFR_ISDSL ,
+  ORD_LINE_FC_1_1_1_1.SUBS_OFR_PROD_ID AS SUBS_OFR_PROD_ID_1 ,
+  ORD_LINE_FC_1_1_1_1.ORD_ID AS ORD_ID_1 ,
+  ORD_LINE_FC_1_1_1_1.ORD_LINE_CMPG_ID AS ORD_LINE_CMPG_ID_1 ,
+  ORD_LINE_FC_1_1_1_1.ORD_LINE_CNL_ID AS ORD_LINE_CNL_ID_1 ,
+  ORD_LINE_FC_1_1_1_1.ORD_LINE_INITIATE_USER_ID AS ORD_LINE_INITIATE_USER_ID_1 ,
+  ORD_LINE_FC_1_1_1_1.ORD_LINE_OFR_ID AS ORD_LINE_OFR_ID_1 ,
+  ORD_LINE_FC_1_1_1_1.ORD_LINE_SUBS_ID AS ORD_LINE_SUBS_ID_1 ,
+  ORD_LINE_FC_1_1_1_1.ORD_LINE_END_DATE_ID AS ORD_LINE_END_DATE_ID_1 ,
+  ORD_LINE_FC_1_1_1_1.ORD_LINE_ID AS ORD_LINE_ID_1 ,
+  ORD_LINE_FC_1_1_1_1.ORD_LINE_FCLT_OFC_ID AS ORD_LINE_FCLT_OFC_ID_1 ,
+  ORD_LINE_FC_1_1_1_1.ORD_LINE_PRTNR_ID AS ORD_LINE_PRTNR_ID_1 ,
+  ORD_LINE_FC_1_1_1_1.ORD_LINE_END_DATE AS ORD_LINE_END_DATE_1 ,
+  ORD_LINE_FC_1_1_1_1.ORD_LINE_CUST_ID AS ORD_LINE_CUST_ID_1 ,
+  ORD_LINE_FC_1_1_1_1.ORD_LINE_PROD_ID AS ORD_LINE_PROD_ID_1 ,
+  ORD_LINE_FC_1_1_1_1.ORD_LINE_WRK_ORG_ID AS ORD_LINE_WRK_ORG_ID_1 ,
+  ORD_LINE_FC_1_1_1_1.ORD_LINE_STRT_DATE AS ORD_LINE_STRT_DATE_1 ,
+  ORD_LINE_FC_1_1_1_1.ORD_LINE_INTER_INTL_RSN_CD AS ORD_LINE_INTER_INTL_RSN_CD_1 ,
+  MIN (
+                                              ORD_LINE_FC_1_1_1_1.ORD_LINE_STRT_DATE)
+                                           OVER (
+                                              PARTITION BY ORD_LINE_FC_1_1_1_1.SUBS_OFR_PROD_ID
+                                              ORDER BY ORD_LINE_FC_1_1_1_1.ORD_LINE_STRT_DATE
+                                              ROWS BETWEEN 1 FOLLOWING
+                                                   AND     1 FOLLOWING) AS COL ,
+  SUBS_DIM_1_1_1_2.SUBS_DSL_NO AS SUBS_DSL_NO_1 ,
+  SUBS_DIM_1_1_1_2.SUBS_PROD_ID AS SUBS_PROD_ID_1 ,
+  SUBS_DIM_1_1_1_2.SUBS_OFR_ID AS SUBS_OFR_ID_1 ,
+  SUBS_DIM_1_1_1_2.SUBS_BILL_ACCT_ID AS SUBS_BILL_ACCT_ID_1 ,
+  SALE_TXN_1_1_1_3.TXN_FWDS_DTTM AS TXN_FWDS_DTTM_1   
+FROM 
+  ((<?= odiRef.getObjectName("L", "ORD_LINE_FC", "LOG_TEST_CONN1_VP_SEM", "D") ?> ORD_LINE_FC_1_1_1_1  INNER JOIN  <?= odiRef.getObjectName("L", "SUBS_DIM", "LOG_TEST_CONN1_VP_SEM", "D") ?> SUBS_DIM_1_1_1_2  
+    ON  ORD_LINE_FC_1_1_1_1.ORD_LINE_SUBS_ID = 
+                                                    SUBS_DIM_1_1_1_2.SUBS_ID and 1=1
+     )  INNER JOIN  <?= odiRef.getObjectName("L", "SALE_TXN", "LOG_TEST_CONN1_VP_SEM", "D") ?> SALE_TXN_1_1_1_3  
+    ON  ORD_LINE_FC_1_1_1_1.ORD_ID = SALE_TXN_1_1_1_3.SALE_TXN_ID
+     )  INNER JOIN  <?= odiRef.getObjectName("L", "OFR_DIM", "LOG_TEST_CONN1_VP_SEM", "D") ?> OFR_DIM_1_1_1_4  
+    ON  ORD_LINE_FC_1_1_1_1.ORD_LINE_OFR_ID =
+                                                    OFR_DIM_1_1_1_4.OFR_ID
+WHERE
+  (ORD_LINE_FC_1_1_1_1.ORD_LINE_INTER_CLS_CD = #GLOBAL.G_VAR_1 
+                                           AND (   OFR_DIM_1_1_1_4.OFR_GRP IN ('TIVIBU UYDU', 
+                                                                 'IPTV', 
+                                                                 'THK', 
+                                                                 'STATIK_IP') 
+                                                OR OFR_DIM_1_1_1_4.OFR_ISDSL = 1) 
+                                           AND ORD_LINE_FC_1_1_1_1.ORD_LINE_ST_CD = #TEST_PROJECT.VAR_1
+) 
+  ) INLINE_VIEW_1  LEFT OUTER JOIN  (
+SELECT 
+  ORD_LINE_FC_1_1_2_1.ORD_LINE_PREV_PROD_ID AS ORD_LINE_PREV_PROD_ID ,
+  ORD_LINE_FC_1_1_2_1.ORD_LINE_RPT_OFC_ID AS ORD_LINE_RPT_OFC_ID ,
+  ORD_LINE_FC_1_1_2_1.ORD_LINE_STRT_DATE_ID AS ORD_LINE_STRT_DATE_ID ,
+  ORD_LINE_FC_1_1_2_1.SUBS_OFR_PROD_ID AS SUBS_OFR_PROD_ID ,
+  ORD_LINE_FC_1_1_2_1.ORD_ID AS ORD_ID ,
+  ORD_LINE_FC_1_1_2_1.ORD_LINE_PREV_OFR_ID AS ORD_LINE_PREV_OFR_ID ,
+  ORD_LINE_FC_1_1_2_1.ORD_LINE_TP_CD AS ORD_LINE_TP_CD ,
+  ORD_LINE_FC_1_1_2_1.ORD_LINE_CMPG_ID AS ORD_LINE_CMPG_ID ,
+  ORD_LINE_FC_1_1_2_1.ORD_LINE_ST_CD AS ORD_LINE_ST_CD ,
+  ORD_LINE_FC_1_1_2_1.ORD_LINE_CNL_ID AS ORD_LINE_CNL_ID ,
+  ORD_LINE_FC_1_1_2_1.ORD_LINE_INTER_CLS_CD AS ORD_LINE_INTER_CLS_CD ,
+  ORD_LINE_FC_1_1_2_1.ORD_LINE_INITIATE_USER_ID AS ORD_LINE_INITIATE_USER_ID ,
+  ORD_LINE_FC_1_1_2_1.ORD_LINE_OFR_ID AS ORD_LINE_OFR_ID ,
+  ORD_LINE_FC_1_1_2_1.ORD_LINE_SUBS_ID AS ORD_LINE_SUBS_ID ,
+  ORD_LINE_FC_1_1_2_1.ORD_LINE_END_DATE_ID AS ORD_LINE_END_DATE_ID ,
+  ORD_LINE_FC_1_1_2_1.TRANS_SUBS_OFR_PROD_ID AS TRANS_SUBS_OFR_PROD_ID ,
+  ORD_LINE_FC_1_1_2_1.ORD_LINE_ID AS ORD_LINE_ID ,
+  ORD_LINE_FC_1_1_2_1.ORD_LINE_TRANS_INDC AS ORD_LINE_TRANS_INDC ,
+  ORD_LINE_FC_1_1_2_1.ORD_LINE_FCLT_OFC_ID AS ORD_LINE_FCLT_OFC_ID ,
+  ORD_LINE_FC_1_1_2_1.ORD_LINE_UPD_USER_ID AS ORD_LINE_UPD_USER_ID ,
+  ORD_LINE_FC_1_1_2_1.ORD_LINE_PRTNR_ID AS ORD_LINE_PRTNR_ID ,
+  ORD_LINE_FC_1_1_2_1.ORD_LINE_END_DATE AS ORD_LINE_END_DATE ,
+  ORD_LINE_FC_1_1_2_1.ORD_LINE_CUST_ID AS ORD_LINE_CUST_ID ,
+  ORD_LINE_FC_1_1_2_1.ORD_LINE_PREV_CUST_ID AS ORD_LINE_PREV_CUST_ID ,
+  ORD_LINE_FC_1_1_2_1.ORD_LINE_CUR_CD AS ORD_LINE_CUR_CD ,
+  ORD_LINE_FC_1_1_2_1.ORD_LINE_INTER_ID AS ORD_LINE_INTER_ID ,
+  ORD_LINE_FC_1_1_2_1.ORD_LINE_PROD_ID AS ORD_LINE_PROD_ID ,
+  ORD_LINE_FC_1_1_2_1.ORD_LINE_INTER_ORIG_CLS_CD AS ORD_LINE_INTER_ORIG_CLS_CD ,
+  ORD_LINE_FC_1_1_2_1.ORD_LINE_INTER_EXT_RSN_CD AS ORD_LINE_INTER_EXT_RSN_CD ,
+  ORD_LINE_FC_1_1_2_1.ORD_LINE_SALE_PRTNR_ID AS ORD_LINE_SALE_PRTNR_ID ,
+  ORD_LINE_FC_1_1_2_1.DWH_LOAD AS DWH_LOAD ,
+  ORD_LINE_FC_1_1_2_1.ORD_LINE_CMPG_TRANS_INDC AS ORD_LINE_CMPG_TRANS_INDC ,
+  ORD_LINE_FC_1_1_2_1.ORD_LINE_SRVC_NO AS ORD_LINE_SRVC_NO ,
+  ORD_LINE_FC_1_1_2_1.ORD_LINE_DSL_NO AS ORD_LINE_DSL_NO ,
+  ORD_LINE_FC_1_1_2_1.ORD_LINE_WRK_ORG_ID AS ORD_LINE_WRK_ORG_ID ,
+  ORD_LINE_FC_1_1_2_1.ORD_LINE_UOM_CD AS ORD_LINE_UOM_CD ,
+  ORD_LINE_FC_1_1_2_1.ORD_LINE_STRT_DATE AS ORD_LINE_STRT_DATE ,
+  ORD_LINE_FC_1_1_2_1.ORD_LINE_INTER_INTL_RSN_CD AS ORD_LINE_INTER_INTL_RSN_CD ,
+  ORD_LINE_FC_1_1_2_1.ORD_LINE_DATEDIFF_HOUR AS ORD_LINE_DATEDIFF_HOUR ,
+  ORD_LINE_FC_1_1_2_1.ORD_LINE_PROD_SALE_FLG AS ORD_LINE_PROD_SALE_FLG ,
+  ORD_LINE_FC_1_1_2_1.ORD_LINE_PROD_CANCEL_FLG AS ORD_LINE_PROD_CANCEL_FLG ,
+  ORD_LINE_FC_1_1_2_1.ORD_LINE_CMPG_SALE_FLG AS ORD_LINE_CMPG_SALE_FLG ,
+  ORD_LINE_FC_1_1_2_1.ORD_LINE_NEW_CMPG_SALE_FLG AS ORD_LINE_NEW_CMPG_SALE_FLG ,
+  ORD_LINE_FC_1_1_2_1.ORD_LINE_CURR_CMPG_SALE_FLG AS ORD_LINE_CURR_CMPG_SALE_FLG ,
+  ORD_LINE_FC_1_1_2_1.ORD_LINE_PREV_CMPG_ID AS ORD_LINE_PREV_CMPG_ID ,
+  ORD_LINE_FC_1_1_2_1.ORD_LINE_ACTV_DTTM AS ORD_LINE_ACTV_DTTM ,
+  ORD_LINE_FC_1_1_2_1.ORD_LINE_MKTNG_CUST_TP AS ORD_LINE_MKTNG_CUST_TP ,
+  ORD_LINE_FC_1_1_2_1.CONN_SUBS_OFR_PROD_ID AS CONN_SUBS_OFR_PROD_ID ,
+  ORD_LINE_FC_1_1_2_1.CONN_SUBS_ID AS CONN_SUBS_ID ,
+  ORD_LINE_FC_1_1_2_1.ORD_LINE_POSTN_ROLE_CD AS ORD_LINE_POSTN_ROLE_CD ,
+  ORD_LINE_FC_1_1_2_1.ORD_LINE_POSTN_ID AS ORD_LINE_POSTN_ID ,
+  ORD_LINE_FC_1_1_2_1.UPSELL_TP AS UPSELL_TP ,
+  ORD_LINE_FC_1_1_2_1.PRNT_OFR_ID AS PRNT_OFR_ID ,
+  ORD_LINE_FC_1_1_2_1.PREV_PRNT_OFR_ID AS PREV_PRNT_OFR_ID ,
+  SUBS_DIM_1_1_2_2.SUBS_ID AS SUBS_ID ,
+  OFR_DIM_1_1_2_3.OFR_ID AS OFR_ID ,
+  OFR_DIM_1_1_2_3.OFR_GRP AS OFR_GRP ,
+  OFR_DIM_1_1_2_3.OFR_ISDSL AS OFR_ISDSL ,
+  ORD_LINE_FC_1_1_2_1.SUBS_OFR_PROD_ID AS SUBS_OFR_PROD_ID_1 ,
+  ORD_LINE_FC_1_1_2_1.ORD_LINE_ID AS ORD_LINE_ID_1 ,
+  ORD_LINE_FC_1_1_2_1.ORD_LINE_END_DATE AS ORD_LINE_END_DATE_1 ,
+  ORD_LINE_FC_1_1_2_1.ORD_LINE_STRT_DATE AS ORD_LINE_STRT_DATE_1   
+FROM 
+  (<?= odiRef.getObjectName("L", "ORD_LINE_FC", "LOG_TEST_CONN1_VP_SEM", "D") ?> ORD_LINE_FC_1_1_2_1  INNER JOIN  <?= odiRef.getObjectName("L", "SUBS_DIM", "LOG_TEST_CONN1_VP_SEM", "D") ?> SUBS_DIM_1_1_2_2  
+    ON  ORD_LINE_FC_1_1_2_1.ORD_LINE_SUBS_ID =
+                                                    SUBS_DIM_1_1_2_2.SUBS_ID
+     )  INNER JOIN  <?= odiRef.getObjectName("L", "OFR_DIM", "LOG_TEST_CONN1_VP_SEM", "D") ?> OFR_DIM_1_1_2_3  
+    ON  ORD_LINE_FC_1_1_2_1.ORD_LINE_OFR_ID =
+                                                    OFR_DIM_1_1_2_3.OFR_ID
+WHERE
+  (1 = 1
+                                           AND (   OFR_DIM_1_1_2_3.OFR_GRP IN ('TIVIBU UYDU',
+                                                                   'IPTV',
+                                                                   'THK',
+                                                                   'STATIK_IP')
+                                                OR OFR_DIM_1_1_2_3.OFR_ISDSL = 1)
+                                           AND ORD_LINE_FC_1_1_2_1.ORD_LINE_INTER_CLS_CD = 46
+                                           AND ORD_LINE_FC_1_1_2_1.ORD_LINE_ST_CD = 8
+) 
+  ) INLINE_VIEW  
+    ON  INLINE_VIEW_1.SUBS_OFR_PROD_ID_1 =
+                                                INLINE_VIEW.SUBS_OFR_PROD_ID_1
+                                         AND INLINE_VIEW.ORD_LINE_STRT_DATE_1 >=
+                                                INLINE_VIEW_1.ORD_LINE_STRT_DATE_1
+                                         AND INLINE_VIEW.ORD_LINE_STRT_DATE_1 <
+                                                COALESCE (INLINE_VIEW_1.COL,
+                                                          CURRENT_TIMESTAMP)
+     )  LEFT OUTER JOIN  (<?= odiRef.getObjectName("L", "RETN_ACTV", "LOG_TEST_CONN1_VP_SEM", "D") ?> RETN_ACTV_1_1_3_1  INNER JOIN  <?= odiRef.getObjectName("L", "OFR_DIM", "LOG_TEST_CONN1_VP_SEM", "D") ?> OFR_DIM_1_1_3_2  
+    ON  RETN_ACTV_1_1_3_1.RETN_ACTV_OFR_ID =
+                                                        OFR_DIM_1_1_3_2.OFR_ID
+                                                 AND (   OFR_DIM_1_1_3_2.OFR_GRP IN ('TIVIBU UYDU',
+                                                                        'IPTV',
+                                                                        'THK',
+                                                                        'STATIK_IP')
+                                                      OR OFR_DIM_1_1_3_2.OFR_ISDSL = 1)
+     )  
+    ON  INLINE_VIEW_1.ORD_LINE_SUBS_ID_1 =
+                                                RETN_ACTV_1_1_3_1.RETN_ACTV_DSL_SUBS_ID
+                                         AND INLINE_VIEW_1.ORD_LINE_END_DATE_ID_1 =
+                                                RETN_ACTV_1_1_3_1.RETN_ACTV_END_DT_ID
+     )  LEFT OUTER JOIN  <?= odiRef.getObjectName("L", "RETN_HSTR", "LOG_TEST_CONN1_VP_SEM", "D") ?> RETN_HSTR_1_1_4  
+    ON  INLINE_VIEW_1.ORD_LINE_SUBS_ID_1 =
+                                                RETN_HSTR_1_1_4.RETN_ACTV_BS_SUBS_ID
+                                         AND INLINE_VIEW_1.ORD_LINE_END_DATE_ID_1 =
+                                                CAST (
+                                                   TO_CHAR (RETN_HSTR_1_1_4.RETN_ACTV_END_DT,
+                                                            'YYYYMMDD') AS NUMBER (19))
+     )  LEFT OUTER JOIN  <?= odiRef.getObjectName("L", "SUBS_SALE", "LOG_TEST_CONN1_VP_SEM", "D") ?> SUBS_SALE_1_1_5  
+    ON  SUBS_SALE_1_1_5.SUBS_SALE_ORD_LINE_ID =
+                                            INLINE_VIEW_1.ORD_LINE_ID_1
+     )  LEFT OUTER JOIN  <?= odiRef.getObjectName("L", "SUBS_CHURN", "LOG_TEST_CONN1_VP_SEM", "D") ?> SUBS_CHURN_1_1_6  
+    ON  INLINE_VIEW_1.ORD_LINE_SUBS_ID_1 =
+                                            SUBS_CHURN_1_1_6.SUBS_CHURN_SUBS_ID
+     )  LEFT OUTER JOIN  (
+SELECT 
+  OFR_DIM_1_1_7_1.OFR_ID AS OFR_ID ,
+  OFR_DIM_1_1_7_1.OFR_GRP AS OFR_GRP ,
+  OFR_DIM_1_1_7_1.OFR_ISDSL AS OFR_ISDSL ,
+  OFR_DIM_1_1_7_1.OFR_ISLIMITED AS OFR_ISLIMITED ,
+  OFR_DIM_1_1_7_1.OFR_ID AS OFR_ID_1 ,
+  OFR_DIM_1_1_7_1.OFR_GRP AS OFR_GRP_1 ,
+  OFR_DIM_1_1_7_1.OFR_ISDSL AS OFR_ISDSL_1 ,
+  OFR_DIM_1_1_7_1.OFR_ISLIMITED AS OFR_ISLIMITED_1   
+FROM 
+  <?= odiRef.getObjectName("L", "OFR_DIM", "LOG_TEST_CONN1_VP_SEM", "D") ?> OFR_DIM_1_1_7_1  
+WHERE
+  ((   OFR_DIM_1_1_7_1.OFR_GRP IN ('TIVIBU UYDU',
+                                                             'IPTV',
+                                                             'THK',
+                                                             'STATIK_IP')
+                                            OR OFR_DIM_1_1_7_1.OFR_ISDSL = 1)
+) 
+  ) OFR_DIM_1_1_7  
+    ON  INLINE_VIEW_1.ORD_LINE_OFR_ID_1 = OFR_DIM_1_1_7.OFR_ID_1
+                                         AND (   OFR_DIM_1_1_7.OFR_GRP_1 IN ('TIVIBU UYDU',
+                                                                 'IPTV',
+                                                                 'THK',
+                                                                 'STATIK_IP')
+                                              OR OFR_DIM_1_1_7.OFR_ISDSL_1 = 1)
+     )  LEFT OUTER JOIN  <?= odiRef.getObjectName("L", "EVNT_RSN_DIM", "LOG_TEST_CONN1_VP_SEM", "D") ?> EVNT_RSN_DIM_1_1_8  
+    ON  EVNT_RSN_DIM_1_1_8.EVNT_RSN_CD =
+                                            INLINE_VIEW_1.ORD_LINE_INTER_INTL_RSN_CD_1
+     )  LEFT OUTER JOIN  <?= odiRef.getObjectName("L", "CNL_DIM", "LOG_TEST_CONN1_VP_SEM", "D") ?> CNL_DIM_1_1_9  
+    ON  CNL_DIM_1_1_9.CNL_ID = INLINE_VIEW_1.ORD_LINE_CNL_ID_1
+  ) INLINE_VIEW_2  
+WHERE
+  (1 = 1 AND INLINE_VIEW_2.COL_3 = 1
+) 
+  ) INLINE_VIEW_3  LEFT OUTER JOIN  (<?= odiRef.getObjectName("L", "LNOC_MERGE_HISTORY", "LOG_TEST_CONN1_VP_REP_SEM", "D") ?> LNOC_MERGE_HISTORY_2_1  INNER JOIN  <?= odiRef.getObjectName("L", "SALE_TXN_KEY", "LOG_TEST_CONN1_VP_ETL_SKEY", "D") ?> SALE_TXN_KEY_2_2  
+    ON  SALE_TXN_KEY_2_2.NAT_SALE_TXN_CD_INT = LNOC_MERGE_HISTORY_2_1.CUST_ORD_ID
+     )  
+    ON  INLINE_VIEW_3.ORD_ID_4 = SALE_TXN_KEY_2_2.SALE_TXN_CD
+       ]]></Field>
+	<Field name="ExeChannel" type="java.lang.String"><![CDATA[J]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[7b593982-c9a0-482c-ae85-a81cd87efdfb]]></Field>
+	<Field name="IndErr" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IndLogFinalCmd" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IndLogMethod" type="java.lang.String">null</Field>
+	<Field name="IndLogNb" type="java.lang.String"><![CDATA[I]]></Field>
+	<Field name="LogLevDet" type="java.lang.String"><![CDATA[5]]></Field>
+	<Field name="MapTaskType" type="java.lang.String"><![CDATA[EM]]></Field>
+	<Field name="Nno" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="OrdTrt" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="ParScenTaskNo" type="com.sunopsis.sql.DbInt"><![CDATA[20]]></Field>
+	<Field name="ScenNo" type="com.sunopsis.sql.DbInt"><![CDATA[73]]></Field>
+	<Field name="ScenTaskNo" type="com.sunopsis.sql.DbInt"><![CDATA[30]]></Field>
+	<Field name="TaskName1" type="java.lang.String"><![CDATA[Insert new rows]]></Field>
+	<Field name="TaskName2" type="java.lang.String"><![CDATA[IKM Oracle Insert]]></Field>
+	<Field name="TaskName3" type="java.lang.String"><![CDATA[Load LNOC_0]]></Field>
+	<Field name="TaskType" type="java.lang.String"><![CDATA[J]]></Field>
+</Object>
 <Object class="com.sunopsis.dwg.dbobj.SnpMapRef">
 		<Field name="AdapterIntfType" type="java.lang.String"><![CDATA[IColumn]]></Field>
 	<Field name="AdapterName" type="java.lang.String"><![CDATA[ODI]]></Field>
@@ -45861,6 +46873,14 @@
 </xmi:XMI>]]></Field>
 	<Field name="ValidationCode" type="java.lang.String">null</Field>
 </Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpScen]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[SCEN_MAPPING_1_410 Version 001]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[e79fe061-6cc7-4fea-a64e-c942c2a582ca]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[3e5adb5908d5a9e0f62872516f9d6fbe36bce998]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[Scenarios/SCEN_SCEN_MAPPING_1_410_Version_001.xml]]></Field>
+</Object>
 <Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
 		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_FOLDER.23]]></Field>
 	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[eb79b404-c4a6-4043-8c42-85a7b8a62858]]></Field>
@@ -46912,13 +47932,6 @@
  <Field name="RefObjFQNameLengths" type="java.lang.String">null</Field>
 </Object>
 <Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
-		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_MAPEXPR.35631]]></Field>
-	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[317ade6f-93eb-4e67-9335-52eceae8f0ae]]></Field>
- <Field name="RefObjFQName" type="java.lang.String">null</Field>
- <Field name="RefObjFQType" type="java.lang.String">null</Field>
- <Field name="RefObjFQNameLengths" type="java.lang.String">null</Field>
-</Object>
-<Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
 		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_MAPEXPR.35588]]></Field>
 	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[d17bf073-0ce6-4e16-ae08-0fd703f361d1]]></Field>
  <Field name="RefObjFQName" type="java.lang.String">null</Field>
@@ -46935,6 +47948,13 @@
 <Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
 		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_MAPEXPR.35591]]></Field>
 	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[e5a43e93-496f-4fd5-b0b5-59fb39081767]]></Field>
+ <Field name="RefObjFQName" type="java.lang.String">null</Field>
+ <Field name="RefObjFQType" type="java.lang.String">null</Field>
+ <Field name="RefObjFQNameLengths" type="java.lang.String">null</Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
+		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_MAPEXPR.35631]]></Field>
+	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[317ade6f-93eb-4e67-9335-52eceae8f0ae]]></Field>
  <Field name="RefObjFQName" type="java.lang.String">null</Field>
  <Field name="RefObjFQType" type="java.lang.String">null</Field>
  <Field name="RefObjFQNameLengths" type="java.lang.String">null</Field>
@@ -49194,34 +50214,6 @@
  <Field name="RefObjFQNameLengths" type="java.lang.String"><![CDATA[12.6.9.6.7.16]]></Field>
 </Object>
 <Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
-		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_MAPATTR.36733]]></Field>
-	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[1437d7e8-9a9f-4ce5-a75f-867953606701]]></Field>
- <Field name="RefObjFQName" type="java.lang.String"><![CDATA[TEST_PROJECT.Flow 1.Mapping 1.EXPR.OUTPUT1.ORD_LINE_CNL_ID]]></Field>
- <Field name="RefObjFQType" type="java.lang.String"><![CDATA[SNP_PROJECT.SNP_FOLDER.SNP_MAPPING.SNP_MAPCOMP.SNP_MAPCP.SNP_MAPATTR]]></Field>
- <Field name="RefObjFQNameLengths" type="java.lang.String"><![CDATA[12.6.9.4.7.15]]></Field>
-</Object>
-<Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
-		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_COL.1761]]></Field>
-	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[38032dd8-5a7d-4070-9bcc-e47ed4979ad8]]></Field>
- <Field name="RefObjFQName" type="java.lang.String"><![CDATA[MD_TEST_CONN1_DP_CORE_SEM.Global.LNOC.ORD_LINE_CNL_ID]]></Field>
- <Field name="RefObjFQType" type="java.lang.String"><![CDATA[SNP_MODEL.SNP_SUBMODEL.SNP_TABLE.SNP_COL]]></Field>
- <Field name="RefObjFQNameLengths" type="java.lang.String"><![CDATA[25.6.4.15]]></Field>
-</Object>
-<Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
-		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_MAPREF.12798]]></Field>
-	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[c8451b78-5762-4b60-8e27-0b4a0b788283]]></Field>
- <Field name="RefObjFQName" type="java.lang.String">null</Field>
- <Field name="RefObjFQType" type="java.lang.String">null</Field>
- <Field name="RefObjFQNameLengths" type="java.lang.String">null</Field>
-</Object>
-<Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
-		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_MAPATTR.36383]]></Field>
-	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[3430cc25-c3ca-4c05-b0f1-1c9b390eb6ce]]></Field>
- <Field name="RefObjFQName" type="java.lang.String"><![CDATA[TEST_PROJECT.Flow 1.Mapping 1.LNOC_0.OUTPUT1.ORD_LINE_CNL_ID]]></Field>
- <Field name="RefObjFQType" type="java.lang.String"><![CDATA[SNP_PROJECT.SNP_FOLDER.SNP_MAPPING.SNP_MAPCOMP.SNP_MAPCP.SNP_MAPATTR]]></Field>
- <Field name="RefObjFQNameLengths" type="java.lang.String"><![CDATA[12.6.9.6.7.15]]></Field>
-</Object>
-<Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
 		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_MAPATTR.36725]]></Field>
 	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[3e85d8c5-bedf-450f-aa80-e622217987cf]]></Field>
  <Field name="RefObjFQName" type="java.lang.String"><![CDATA[TEST_PROJECT.Flow 1.Mapping 1.EXPR.OUTPUT1.ORD_LINE_OFR_ID]]></Field>
@@ -49304,6 +50296,34 @@
  <Field name="RefObjFQName" type="java.lang.String"><![CDATA[TEST_PROJECT.Flow 1.Mapping 1.LNOC_0.OUTPUT1.ORD_LINE_FCLT_OFC_ID]]></Field>
  <Field name="RefObjFQType" type="java.lang.String"><![CDATA[SNP_PROJECT.SNP_FOLDER.SNP_MAPPING.SNP_MAPCOMP.SNP_MAPCP.SNP_MAPATTR]]></Field>
  <Field name="RefObjFQNameLengths" type="java.lang.String"><![CDATA[12.6.9.6.7.20]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
+		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_MAPATTR.36733]]></Field>
+	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[1437d7e8-9a9f-4ce5-a75f-867953606701]]></Field>
+ <Field name="RefObjFQName" type="java.lang.String"><![CDATA[TEST_PROJECT.Flow 1.Mapping 1.EXPR.OUTPUT1.ORD_LINE_CNL_ID]]></Field>
+ <Field name="RefObjFQType" type="java.lang.String"><![CDATA[SNP_PROJECT.SNP_FOLDER.SNP_MAPPING.SNP_MAPCOMP.SNP_MAPCP.SNP_MAPATTR]]></Field>
+ <Field name="RefObjFQNameLengths" type="java.lang.String"><![CDATA[12.6.9.4.7.15]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
+		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_COL.1761]]></Field>
+	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[38032dd8-5a7d-4070-9bcc-e47ed4979ad8]]></Field>
+ <Field name="RefObjFQName" type="java.lang.String"><![CDATA[MD_TEST_CONN1_DP_CORE_SEM.Global.LNOC.ORD_LINE_CNL_ID]]></Field>
+ <Field name="RefObjFQType" type="java.lang.String"><![CDATA[SNP_MODEL.SNP_SUBMODEL.SNP_TABLE.SNP_COL]]></Field>
+ <Field name="RefObjFQNameLengths" type="java.lang.String"><![CDATA[25.6.4.15]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
+		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_MAPREF.12798]]></Field>
+	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[c8451b78-5762-4b60-8e27-0b4a0b788283]]></Field>
+ <Field name="RefObjFQName" type="java.lang.String">null</Field>
+ <Field name="RefObjFQType" type="java.lang.String">null</Field>
+ <Field name="RefObjFQNameLengths" type="java.lang.String">null</Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
+		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_MAPATTR.36383]]></Field>
+	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[3430cc25-c3ca-4c05-b0f1-1c9b390eb6ce]]></Field>
+ <Field name="RefObjFQName" type="java.lang.String"><![CDATA[TEST_PROJECT.Flow 1.Mapping 1.LNOC_0.OUTPUT1.ORD_LINE_CNL_ID]]></Field>
+ <Field name="RefObjFQType" type="java.lang.String"><![CDATA[SNP_PROJECT.SNP_FOLDER.SNP_MAPPING.SNP_MAPCOMP.SNP_MAPCP.SNP_MAPATTR]]></Field>
+ <Field name="RefObjFQNameLengths" type="java.lang.String"><![CDATA[12.6.9.6.7.15]]></Field>
 </Object>
 <Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
 		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_MAPATTR.36720]]></Field>
@@ -52918,6 +53938,27 @@
  <Field name="RefObjFQNameLengths" type="java.lang.String"><![CDATA[12.6.9.16.7.15]]></Field>
 </Object>
 <Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
+		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_EXPTXTHEADER.143]]></Field>
+	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[03640711-be99-4e80-ab48-02be7451be88]]></Field>
+ <Field name="RefObjFQName" type="java.lang.String">null</Field>
+ <Field name="RefObjFQType" type="java.lang.String">null</Field>
+ <Field name="RefObjFQNameLengths" type="java.lang.String">null</Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
+		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_SCEN.73]]></Field>
+	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[e79fe061-6cc7-4fea-a64e-c942c2a582ca]]></Field>
+ <Field name="RefObjFQName" type="java.lang.String"><![CDATA[TEST_PROJECT.Flow 1.Mapping 1.SCEN_MAPPING_1_410 Version 001]]></Field>
+ <Field name="RefObjFQType" type="java.lang.String"><![CDATA[SNP_PROJECT.SNP_FOLDER.SNP_MAPPING.SNP_SCEN]]></Field>
+ <Field name="RefObjFQNameLengths" type="java.lang.String"><![CDATA[12.6.9.30]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
+		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_SCENSTEP.73.10]]></Field>
+	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[ce09f559-6976-4795-a699-260c82665ab2]]></Field>
+ <Field name="RefObjFQName" type="java.lang.String">null</Field>
+ <Field name="RefObjFQType" type="java.lang.String">null</Field>
+ <Field name="RefObjFQNameLengths" type="java.lang.String">null</Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
 		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_COL.2589]]></Field>
 	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[38959bbe-5da2-474a-a829-f45188877eaf]]></Field>
  <Field name="RefObjFQName" type="java.lang.String"><![CDATA[MD_TEST_CONN1_VP_SEM.Global.SUBS_CHURN.SUBS_CHURN_SUBS_ID]]></Field>
@@ -54171,7 +55212,7 @@
  <Field name="RefObjFQNameLengths" type="java.lang.String"><![CDATA[12.6.9.18]]></Field>
 </Object>
 <Object class="com.sunopsis.dwg.DwgExportSummary">
-		<Field name="ExpTxtNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+		<Field name="ExpTxtNb" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
 	<Field name="InstObjNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
 	<Field name="JoinColNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
 	<Field name="JoinNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
@@ -54181,7 +55222,7 @@
 	<Field name="MorigTxtNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
 	<Field name="MtxtNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
 	<Field name="OrigTxtNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
-	<Field name="OtherObjectsNb" type="com.sunopsis.sql.DbInt"><![CDATA[3215]]></Field>
+	<Field name="OtherObjectsNb" type="com.sunopsis.sql.DbInt"><![CDATA[3225]]></Field>
 	<Field name="PlanAgentNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
 	<Field name="StepNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
 	<Field name="TxtNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>

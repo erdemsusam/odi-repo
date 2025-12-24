@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OdiGitTagInfo>
+   <ParamMap>
+      <param value="/Work Repository/Projects/TEST_PROJECT/First_Folder/Flow_1/Mappings/Scenarios/SCEN_SCEN_MAPPING_4_413_Version_001.xml"/>
+      <param value="/Work Repository/Models/MD_DWH_DP_REP_SEM/Global/SMOD_Global.xml"/>
+      <param value="/Master Repository/Contexts/CONT_Development.xml"/>
+      <param value="/Master Repository/Contexts/CONT_Global.xml"/>
+      <param value="/Master Repository/Contexts/CONT_Production.xml"/>
+      <param value="/Work Repository/Models/MD_TEST_CONN1_VP_SEM/Global/SMOD_Global.xml"/>
+      <param value="/Work Repository/Models/MD_TEST_CONN1_VP_REP_TTS/Global/SMOD_Global.xml"/>
+      <param value="/Master Repository/Contexts/CONT_Test.xml"/>
+      <param value="/Work Repository/Models/MD_TEST_CONN1_VP_SEM/Global/TAB_OFR_DIM.xml"/>
+      <param value="/Work Repository/Projects/TEST_PROJECT/PROJ_TEST_PROJECT.xml"/>
+      <param value="/Work Repository/Models/MD_DWH_DP_REP_SEM/Global/TAB_CIHAZ_SUPHELI_ALACAKLAR_DM.xml"/>
+      <param value="/Work Repository/Projects/TEST_PROJECT/First_Folder/FOLD_First_Folder.xml"/>
+      <param value="/Work Repository/Models/MD_TEST_CONN1_VP_SEM/Global/TAB_SUBS_DIM.xml"/>
+      <param value="/Work Repository/Models/MD_TEST_CONN1_VP_SEM/Global/TAB_SUBS_SALE.xml"/>
+      <param value="/Master Repository/Languages/LANG_SQL.xml"/>
+      <param value="/Work Repository/Models/MD_TEST_CONN1_VP_SEM/Global/TAB_BILL_STMT_CHRG.xml"/>
+      <param value="/Master Repository/Technologies/Oracle/Physical Architecture/TEST_CONN1/CONN_TEST_CONN1.xml"/>
+      <param value="/Work Repository/Models/MD_DWH_DP_REP_SEM/MOD_MD_DWH_DP_REP_SEM.xml"/>
+      <param value="/Work Repository/Models/MD_TEST_CONN1_VP_SEM/Global/TAB_WRK_ORG_DIM.xml"/>
+      <param value="/Master Repository/Technologies/Oracle/Logical Architecture/LSC_LOG_TEST_CONN1_VP_REP_TTS.xml"/>
+      <param value="/Work Repository/Projects/TEST_PROJECT/First_Folder/Flow_1/FOLD_Flow_1.xml"/>
+      <param value="/Work Repository/Models/MD_TEST_CONN1_VP_SEM/Global/TAB_BILL_ACCT_DIM.xml"/>
+      <param value="/Master Repository/Technologies/Oracle/TECH_Oracle.xml"/>
+      <param value="/Work Repository/Models/MD_TEST_CONN1_VP_REP_TTS/MOD_MD_TEST_CONN1_VP_REP_TTS.xml"/>
+      <param value="/Work Repository/Models/MD_TEST_CONN1_VP_SEM/Global/TAB_CUST_DIM.xml"/>
+      <param value="/Work Repository/Projects/TEST_PROJECT/First_Folder/Flow_1/Mappings/MAP_Mapping_4.xml"/>
+      <param value="/Master Repository/Technologies/Oracle/Physical Architecture/TEST_CONN1/PSC_TEST_CONN1_VP_REP_TTS.xml"/>
+      <param value="/Work Repository/Models/MD_TEST_CONN1_VP_REP_TTS/Global/TAB_FATURA.xml"/>
+      <param value="/Work Repository/Models/MD_TEST_CONN1_VP_SEM/MOD_MD_TEST_CONN1_VP_SEM.xml"/>
+      <param value="/Master Repository/Technologies/Oracle/Physical Architecture/TEST_CONN1/PSC_TEST_CONN1_VP_SEM.xml"/>
+      <param value="/Work Repository/Models/MD_TEST_CONN1_VP_SEM/Global/TAB_OFC_DIM.xml"/>
+      <param value="/Master Repository/Technologies/Oracle/Logical Architecture/LSC_LOG_TEST_CONN1_VP_SEM.xml"/>
+      <param value="/Work Repository/Models/MD_TEST_CONN1_VP_SEM/Global/TAB_INV.xml"/>
+      <param value="/Master Repository/Technologies/Oracle/Logical Architecture/LSC_LOG_TEST_CONN1_DP_REP_SEM.xml"/>
+      <param value="/Master Repository/Technologies/Oracle/Physical Architecture/TEST_CONN1/PSC_TEST_CONN1_DP_REP_SEM.xml"/>
+   </ParamMap>
+</OdiGitTagInfo>
